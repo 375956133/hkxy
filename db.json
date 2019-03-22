@@ -1,0 +1,113 @@
+{
+  "posts": [{
+    "bookName": "西游记",
+    "bookAuthor": "吴承恩",
+    "bookCbs": "新华社1",
+    "bookContent": "孙悟空三打白骨精",
+    "src": "staticImg/xyj.jpg"
+  }, {
+    "bookName": "水浒传",
+    "bookAuthor": "施耐庵",
+    "bookCbs": "新华社2",
+    "bookContent": "孙二娘卖人肉包子",
+    "src": "staticImg/fengcai-big.jpg"
+  }, {
+    "bookName": "三国演绎",
+    "bookAuthor": "罗贯中",
+    "bookCbs": "新华社3",
+    "bookContent": "鲁智深倒拔垂杨柳",
+    "src": "staticImg/book.jpg"
+  }, {
+    "bookName": "红楼梦",
+    "bookAuthor": "曹雪芹",
+    "bookCbs": "新华社4",
+    "bookContent": "林黛玉葬花",
+    "src": "staticImg/book.jpg"
+  }],
+  "comments": [{
+    "src": "staticImg/xyj.jpg",
+    "title": "vue工业机器人基础与机器人基础与应用sss",
+    "name": "岳献琴",
+    "free": "免费",
+    "time": "20",
+    "enroll": "99",
+    "rentou": "staticImg/me.jpg"
+  }, {
+    "src": "staticImg/xyj.jpg",
+    "title": "vue",
+    "name": "yuexianqin",
+    "free": "免费",
+    "time": "20",
+    "enroll": "99",
+    "rentou": "staticImg/me.jpg"
+  }, {
+    "src": "staticImg/xyj.jpg",
+    "title": "vue",
+    "name": "yuexianqin",
+    "free": "免费",
+    "time": "20",
+    "enroll": "99",
+    "rentou": "staticImg/me.jpg"
+  }, {
+    "src": "staticImg/xyj.jpg",
+    "title": "vue",
+    "name": "yuexianqin",
+    "free": "免费",
+    "time": "20",
+    "enroll": "99",
+    "rentou": "staticImg/me.jpg"
+  }],
+  "collTrain": [{
+    "title": "FANUC机器人装调维修工（中级）苏州3月周末班",
+    "xueyuan": " (1) 全国机械、 电气、 生产制造、 自动化行业、 工业机器人行业及其他相关行业领域内各类从业人员;(2)  全国各类中职中专、高职高专、本科院校的应届毕业生以及在校生；(3)  其他有一定的机械、电气技术基础，希望从事工业机器人自动化行业的专业技术人员、管理人员和业务人员。",
+    "jianjie": "哈工海渡机器人学院（苏州工业园区展业路8号中新科技工业坊3栋",
+    "price": "3万",
+    "src": "https://www.baidu.com/"
+  }, {
+    "title": "vue",
+    "xueyuan": "yuexianqin",
+    "jianjie": "32了",
+    "price": "3万",
+    "src": "https://www.baidu.com/"
+  }, {
+    "title": "vue",
+    "xueyuan": "yuexianqin",
+    "jianjie": "32了",
+    "price": "3万",
+    "src": "https://www.baidu.com/"
+  }],
+  "content":[{
+    "id":1,
+    "title":"钢铁是怎样练成的",
+    "content":"钢铁是怎样练成的钢铁是怎样练成的钢铁是怎样练成的钢铁是怎样练成的"
+  },
+  {
+    "id":2,
+    "title":"消防工程师考试资格",
+    "content":"消防工程师考试资格消防工程师考试资格消防工程师考试资格消防工程师考试资格"
+  }
+  ],
+  "unum":[{
+    "unum":"130723198701240823"
+  }
+  ],
+  "stunum":[{
+    "name":"岳岳",
+    "num":13072919871240856,
+    "lesname":"vue.js",
+    "xb":"女",
+    "xueli":"本科",
+    "address":"河北廊坊",
+    "score":100
+  },
+  {
+    "name":"岳岳",
+    "num":13072919871240856,
+    "lesname":"vue.js",
+    "xb":"女",
+    "xueli":"本科",
+    "address":"河北廊坊",
+    "score":100
+  }
+  ]
+}

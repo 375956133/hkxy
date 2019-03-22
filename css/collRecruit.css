@@ -1,0 +1,138 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-08 10:27:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-12 10:02:49
+*/
+body{
+	background: #f7f7f7;
+}
+.sigleCon {
+    margin-bottom: 40px;
+}
+
+.sigleT {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.sigleT em {
+    font-style: normal;
+    color: #ecebeb;
+    font-size: 48px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.sigleT span {
+    font-size: 30px;
+    color: #090909;
+    line-height: 80px;
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.sigleT i {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 1px;
+    background: #e6e6e6;
+}
+.recruitBtn {
+    padding-top: 20px;
+    overflow: hidden;
+}
+.recruitLink:link, .recruitLink:visited {
+    display: inline-block;
+    color: #0095d9;
+    font-size: 18px;
+    padding: 8px 25px;
+    border: 1px solid #0095d9;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+}
+.sigleConTxt p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+.layui-colla-content .span1{
+	color: rgb(51, 51, 51);
+ 	font-family:'Microsoft Yahei';
+ 	 font-size: 16px;
+  	 line-height: 25px;
+}
+.layui-colla-content .span2{
+	color:#666;
+	font-family: 'Microsoft Yahei';
+	font-size: 14px; 
+	line-height: 25px;
+}
+.layui-colla-content li{
+ list-style-type:decimal;
+ line-height:40px;
+}
+
+.layui-colla-item .layui-colla-title{
+	font-size: 20px;
+	padding-left:50px;
+}
+.layui-colla-item .layui-colla-content {
+	padding:10px 40px;
+}
+/* 分页开始 */
+.sigleConTxt .paginationV {
+    margin: 40px 0px 0px;
+}
+.paginationV {
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    clear: both;
+    margin: 20px auto 40px;
+}
+.paginationV span.prev, .paginationV span.next {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #c0c0c0;
+    background: #fff;
+}
+.paginationV span {
+    border: 1px solid #26aad8;
+    color: #FFF;
+    background: #26aad8;
+    padding: 8px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+.paginationV a {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #c0c0c0;
+    padding: 8px 15px;
+    margin-right: 5px;
+    background: #fff;
+}
+
+/* 分页结束 */
+
+

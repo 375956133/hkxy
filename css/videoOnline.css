@@ -1,0 +1,259 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-06 17:27:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-07 14:59:05
+*/
+.menuNav {
+    background: #fff;
+    font-size: 16px;
+    padding-top: 30px;
+}
+.menuNav dt {
+    color: #4c4c4c;
+    width: 140px;
+    height: 20px;
+    line-height: 20px;
+}
+.menuNav dd {
+    width: 1140px;
+}
+.menuNav dd a:link, .menuNav dd a:visited {
+    color: #4c4c4c;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    padding: 2px 10px 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+.menuNav dd a:hover, .menuNav dd a.active {
+    background: #26aad8;
+    color: #fff;
+}
+/* 切换盒子开始 */
+.class {
+    padding-top: 10px;
+    background: url(../images/video9.png) no-repeat center top;
+}
+/* 小条盒子开始 */
+.classH {
+    margin: 30px 0px;
+    border-left: 1px solid #ccc;
+    height: 20px;
+}
+.classNav:link, .classNav:visited {
+    padding: 0px 25px;
+    font-size: 18px;
+    line-height: 20px;
+    border-right: 1px solid #ccc;
+    color: #4c4c4c;
+}
+.classNav:hover, .classNav.active {
+    font-weight: bold;
+    color: #fc583d;
+}
+.selectFee {
+    font-size: 12px;
+    font-family: "宋体",arial;
+    line-height: 16px;
+    height: 16px;
+    background: url(../images/video10.png) no-repeat 0 center;
+    margin-left: 20px;
+    padding-left: 26px;
+}
+.selectFee.active {
+    background: url(../images/video12.png) no-repeat 0 center;
+}
+
+/* 搜索开始 */
+.classSearch {
+    width: 145px;
+    padding-left: 25px;
+    background: url(../images/video11.png) no-repeat 0 center;
+    position: relative;
+    margin-right: 30px;
+}
+.classSearch input {
+    width: 100px;
+    height: 14px;
+    font-size: 12px;
+    padding: 2px 5px;
+    color: #333;
+    border: 1px solid #bfbfbf;
+    border-right: 1px solid #fff;
+    border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -ms-border-top-left-radius: 5px;
+    -o-border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    -ms-border-bottom-left-radius: 5px;
+    -o-border-bottom-left-radius: 5px;
+}
+.classSearch .search {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    background: #26aad8;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    -ms-border-top-right-radius: 5px;
+    -o-border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    -ms-border-bottom-right-radius: 5px;
+    -o-border-bottom-right-radius: 5px;
+}
+
+/* 搜索结束 */
+/* 小条盒子结束 */
+
+/* 下面列表开始 */
+.classList {
+    overflow: hidden;
+    padding-top: 2px;
+}
+.classList ul {
+    zoom: 1;
+    margin-right: -20px;
+    margin-bottom: -30px;
+}
+.classList ul li{
+	float: left;
+    width: 303px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #FFF;
+    border: 1px solid #26AAD8;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.classList .div-top{
+	height: 220px;
+	overflow: hidden;
+
+}
+.classList ul li img{
+	width: 100%;
+	height: 200px;
+}
+.infor-bottom{
+	height: 90px;
+	margin: 20px;
+	line-height: 28px;
+	overflow: hidden;
+}
+.classList ul li:hover{
+	transform:translateY(-2px);
+
+}
+.classList ul li .title {
+    color: #010101;
+    height: 28px;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+}
+.haveBorder{
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 5px;
+}
+.classList ul li .head-portrait {
+    vertical-align: middle;
+    margin-right: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.classList ul li .name {
+    font-size: 12px;
+    color: #666666;
+}
+.classList ul li .free {
+    color: #26aad8;
+    font-size: 13px;
+}
+.classList ul li .clock {
+    background: url(../images/clock.png) no-repeat 0 center;
+    padding: 1px 9px;
+    margin-right: 10px;
+}
+.classList ul li .name {
+    font-size: 12px;
+    color: #666666;
+}
+.classList ul li .enroll {
+    color: #929292;
+}
+/* 下面列表结束 */
+
+
+/* 切换盒子结束 */
+
+/* 分页开始 */
+.sigleConTxt .paginationV {
+    margin: 40px 0px 0px;
+}
+.paginationV {
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    clear: both;
+    margin: 20px auto 40px;
+}
+.paginationV span.prev, .paginationV span.next {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #c0c0c0;
+    background: #fff;
+}
+.paginationV span {
+    border: 1px solid #26aad8;
+    color: #FFF;
+    background: #26aad8;
+    padding: 8px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+.paginationV a {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #c0c0c0;
+    padding: 8px 15px;
+    margin-right: 5px;
+    background: #fff;
+}
+
+/* 分页结束 */
+

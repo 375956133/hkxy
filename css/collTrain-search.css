@@ -1,0 +1,64 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-14 13:33:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-19 16:02:15
+*/
+body{
+	background:#f7f7f7;
+}
+.orgT {
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    left: -40px;
+}
+.trainPart{
+	width: 1198px;
+	margin-bottom: 20px;
+	border: 1px solid #e1e2e1;
+}
+.sigleConTxt p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+.sigleConTxt p img{
+	width: 600px;
+	height: 561px;
+}
+/* 表单开始 */
+.collTrForm {
+    padding: 30px;
+    background: #ededed url(../images/coll57.png) no-repeat right bottom;
+}
+.formT {
+    font-size: 16px;
+    color: #0067b2;
+    line-height: 18px;
+    height: 18px;
+    padding-bottom: 12px;
+    position: relative;
+    border-bottom: 1px solid #d3d0cf;
+    margin-bottom: 30px;
+}
+.collTrForm tr td.eq(0){
+	float: left;
+}
+.collTrForm input{
+width: 900px;
+}
+.goBack {
+    margin-top: 20px;
+    text-align: center;
+}
+.goBackLink:link, .goBackLink:visited {
+    padding: 5px 45px;
+    background: #ccc;
+    color: #666;
+    font-size: 18px;
+}
+/* 表单结束 */

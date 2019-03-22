@@ -1,0 +1,93 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-12 10:19:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-12 10:37:12
+*/
+
+body{
+	background: #f7f7f7;
+}
+.ganYanImg {
+    width: 205px;
+    height: 215px;
+    overflow: hidden;
+}
+.ganYanImg img{
+	 width: 205px;
+    height: 215px;
+}
+.ganYan .noticeList li dl {
+    width: 940px;
+    height: 190px;
+    padding: 25px 30px 0px 25px;
+    background: #ededed;
+}
+.ganYan .noticeList li dt {
+    font-size: 20px;
+    line-height: 36px;
+    height: 36px;
+    font-weight: bold;
+    color: #26aad8;
+}
+.ganYan .noticeT {
+    font-size: 12px;
+    font-family: "宋体",arial;
+    padding-bottom: 15px;
+    color: #999;
+}
+.ganYan .noticeIntro {
+    margin-top: 0px;
+    height: 96px;
+}
+.noticeIntro p{
+	margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color:#666;
+	overflow: hidden;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+}
+
+/* 分页开始 */
+.sigleConTxt .paginationV {
+    margin: 40px 0px 0px;
+}
+.paginationV {
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    clear: both;
+    margin: 20px auto 40px;
+}
+.paginationV span.prev, .paginationV span.next {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #c0c0c0;
+    background: #fff;
+}
+.paginationV span {
+    border: 1px solid #26aad8;
+    color: #FFF;
+    background: #26aad8;
+    padding: 8px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+.paginationV a {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #c0c0c0;
+    padding: 8px 15px;
+    margin-right: 5px;
+    background: #fff;
+}
+
+/* 分页结束 */

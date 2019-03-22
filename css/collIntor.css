@@ -1,0 +1,56 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-05 11:32:58
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-05 15:36:43
+*/
+.sigleConTxt span{
+color:#26aad8; 
+font-size:20px;
+ font-weight:bold
+}
+
+.sigleConTxt .collIntroList dl .p1{
+	line-height: 28px;
+	font-size: 15px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 8;
+	overflow: hidden;
+}
+.sigleConTxt .spiltLine {
+    border-bottom: 2px dotted #b2b2b2;
+}
+.subNavMenu dl {
+    width: 148px;
+    padding: 5px 0px;
+    position: absolute;
+    left: 50%;
+    margin-left: -74px;
+    border-bottom: 0px;
+    top: 55px;
+    background: url(../images/coll39.png) no-repeat center bottom;
+    /* display: none; */
+    z-index: 130;
+    /* border: 1px solid red; */
+    /* box-shadow: 2px 2px 2px green; */
+}
+.collIntroList li {
+    margin: 30px 0px;
+}
+.collIntroList dl {
+    padding: 40px 40px 20px;
+    height: 220px;
+    overflow: hidden;
+    width: 540px;
+    background: #f5f5f5;
+}
+.collIntroList dd p{
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+     display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 6;
+	overflow: hidden;
+}

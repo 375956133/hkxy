@@ -1,0 +1,112 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-06 09:36:38
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-06 16:24:25
+*/
+.recBook {
+    margin: 20px 0px 30px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #666;
+}
+.recBook ul {
+    margin-left: -60px;
+}
+.recBook ul li {
+    margin-left: 60px;
+    padding-left: 20px;
+    background: url(../images/star2.png) no-repeat 0 center;
+}
+/* 图书列表开始 */
+.recBookList {
+    padding-top: 40px;
+}
+.recBookList li {
+    height: 278px;
+    margin-bottom: 30px;
+    border: 1px solid #26aad8;
+}
+.recBookImg {
+    width: 302px;
+    height: 100%;
+    overflow: hidden;
+    background: url(../images/coll17.jpg) no-repeat center center;
+}
+.recBookImg img{
+	width: 302px;
+	height: 278px;
+}
+.recBookList li dt i {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 40px;
+    height: 1px;
+    background: red;
+}
+.recBookList li dd {
+    font-size: 14px;
+    line-height: 26px;
+    color: #8c8c8c;
+}
+.recBookList li .recBookBold {
+    font-weight: bold;
+    color: #666;
+    float: left;
+}
+.recBookIntro {
+    height: 104px;
+    overflow: hidden;
+}
+.recBookList li dd .pContent {
+    line-height: 26px;
+    overflow: hidden;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+
+}
+
+/* 图书列表结束 */
+/* 分页开始 */
+.sigleConTxt .paginationV {
+    margin: 40px 0px 0px;
+}
+.paginationV {
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    clear: both;
+    margin: 20px auto 40px;
+}
+.paginationV span.prev, .paginationV span.next {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #c0c0c0;
+    background: #fff;
+}
+.paginationV span {
+    border: 1px solid #26aad8;
+    color: #FFF;
+    background: #26aad8;
+    padding: 8px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+.paginationV a {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #c0c0c0;
+    padding: 8px 15px;
+    margin-right: 5px;
+    background: #fff;
+}
+
+/* 分页结束 */
+

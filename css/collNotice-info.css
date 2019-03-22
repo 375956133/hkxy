@@ -1,0 +1,23 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-04 11:12:09
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-04 11:15:59
+*/
+.contxtTxt{
+	text-align: center;
+}
+.contxtTxt p{
+	margin: 0px 0px 15px;
+    padding: 0px;
+    line-height: 25.2px;
+    color: rgb(102, 102, 102);
+    font-family: "microsoft yahei", 宋体, Arial, sans-serif;
+    font-size: 14px;
+    text-indent: 25px;
+    text-align: justify;
+}
+.contxtTxt img{
+	width:40%;
+	height:auto;
+}

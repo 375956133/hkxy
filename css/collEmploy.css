@@ -1,0 +1,38 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-12 13:11:56
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-12 13:57:59
+*/
+body{
+	background: #f7f7f7;
+}
+.employT {
+    color: #323335;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #d7d7d9;
+    margin-bottom: 15px;
+    position: relative;
+}
+.employT i {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 80px;
+    height:2px;
+    background: #26aad8;
+}
+
+.sigleConTxt p{
+-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+ margin: 0px 0px 20px;
+  padding: 0px;
+  font-size: 14px; 
+line-height: 24px;
+ color: rgb(102, 102, 102); 
+ font-family: Microsoft YaHei;
+
+}

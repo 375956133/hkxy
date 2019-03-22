@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+		<!--[if lt IE 9]>
+		<script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+		<script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="../css/default.css" />
+		<link rel="stylesheet" href="../node_modules/layui-v2.4.5/layui/css/layui.css">
+		<script src="../node_modules/layui-v2.4.5/layui/layui.js"></script>
+	</head>
+	<body>
+		<div class="layui-layer layui-layer-dialog layui-layer-border layui-layer-molv layer-anim" id="layui-layer1" type="dialog" times="1" showtime="0" contype="string" style="z-index: 19891015; top: 40%; left:42%">
+			<div class="layui-layer-title" style="cursor: move;" move="ok">信息</div>
+			<div id="" class="layui-layer-content layui-layer-padding">
+				<i class="layui-layer-ico layui-layer-ico7"></i>请登录后再试
+			</div>
+			<span class="layui-layer-setwin"></span>
+			<div class="layui-layer-btn">
+				<a class="layui-layer-btn0" href="login.html">登录</a>
+				<a class="layui-layer-btn1">取消</a>
+			</div>
+		</div>
+	</body>
+	<script>
+	layui.use('layer', function(){
+	var layer = layui.layer;
+	
+	// layer.msg('hello');
+	
+	});
+	
+	</script>
+</html>

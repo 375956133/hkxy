@@ -1,0 +1,97 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-19 17:10:49
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-21 14:13:25
+*/
+.headline {
+    background: url(../images/headline-bg.png) 0 50% repeat-x;
+    display: block;
+    margin: 0px 0 30px 0;
+}
+.headline h3, .headline h4 {
+	background: #fff;
+    display: inline;
+    font-family: "Microsoft Yahei";
+    color: #0083e9;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0 10px 0 0;
+}
+.headline h4 .text_small {
+    color: #999;
+    font-size: 14px;
+}
+.large-notice {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 12px;
+}
+.bgimg{
+	width: 86%;
+	height: 380px;
+	background: url(../images/search_bg.jpg);
+	margin-bottom: 90px;
+	position: relative;
+}
+.bgimg input{
+	position: absolute;
+    right: 66px;
+    top: 116px;
+    padding: 4px;
+    border: none;
+}
+.bgimg button{
+	 position: absolute;
+    right: 30px;
+    top: 185px;
+    padding: 4px;
+    padding: 10px;
+    width: 260px;
+    background: #0085D2;
+    font-size: 20px;
+}
+.userinfo{
+	width: 86%;
+	height: 420px;
+	border: 2px solid #00b7ee;
+	margin-bottom: 50px;
+	text-align: center;
+	overflow: hidden;
+}
+.userinfo li{
+	padding:10px;
+	text-align: left;
+    margin-left: 266px;
+}
+
+.search_end_title {
+    text-align: center;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.userinfo2{
+	width: 86%;
+	height: 240px;
+	border: 2px solid #00b7ee;
+	margin-bottom: 80px;	
+	text-align: center;
+	padding-top: 60px;
+}
+.userinfo2 img{
+	width:60px;
+	height: 60px;
+	margin-bottom: 30px;
+}
+.userinfo2 p {
+    color: #D61F1F;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+

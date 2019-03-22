@@ -1,0 +1,85 @@
+/*
+* @Author: Administrator
+* @Date:   2019-02-22 15:36:35
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-13 10:55:37
+*/
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td {margin:0;padding:0;}
+fieldset, img {border:none;}
+:focus {outline:0;}
+address, caption, cite, code, dfn,
+em, th, var, optgroup {font-style:normal;font-weight:normal !important;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+abbr, acronym {border:none;font-variant:normal;}
+
+input, button, textarea,
+select, optgroup, option {font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;*font-family:"Microsoft YaHei",Arial;resize: none;}
+code, kbd, samp, tt {font-size: 100%;}
+input, button, textarea, select {font-size: 100%;outline:none;/*-webkit-appearance:none;*/}
+ul {list-style: none;}
+table{border-collapse:collapse;border-spacing:0;
+/*表格自动换行*/
+table-layout:fixed;word-wrap:break-word;}
+caption, th{text-align:center;}
+sup, sub {font-size: 100%;vertical-align: baseline;}
+:link, :visited , ins {text-decoration: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+a{transition:0.5s;-webkit-transition: 0.5s;}
+img{vertical-align: middle;}
+.scaleImg,.scaleImg1{overflow: hidden;}
+.scaleImg img,.scaleImg1 img{ width: 100%;transition:0.5s;-webkit-transition: 0.5s;}
+.scaleImg img:hover,.scaleImg1 img:hover{transform: scale(1.1);-webkit-transform: scale(1.1);}
+*{-webkit-tap-highlight-color:rgba(255,0,0,0);}/*去掉手机端a链接点击时候出现的边框*/
+.clear{ clear:both; height:0; font-size:0; overflow:hidden; line-height:0;}
+.clear10{ clear:both; height:10px; overflow:hidden;}
+.clear15{ clear:both; height:15px; overflow:hidden;}
+.clear20{ clear:both; height:20px; overflow:hidden;}
+.clear30{ clear:both; height:30px; overflow:hidden;}
+.clearfix:before, .clearfix:after { 
+	content: "\0020";
+ 	display: block;
+  	height: 0;
+   overflow: hidden; 
+}  
+.clearfix:after { clear: both; }  
+.clearfix { zoom: 1; } 
+.fl{float:left;}
+.fr{float:right;}
+.mt20{margin-top:20px;}
+.textover{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+a{color: #666666;cursor: pointer;}
+a:hover{ color: #26AAD8;}
+body{ font-family: "Microsoft YaHei"; color: #333;font-size: 16px;min-width: 1300px;position: relative;}
+/*:first-child  filter:alpha(opacity=50);*/
+/*滚动条样式*/
+.overflowY{ overflow-y: scroll;}
+.overflowY::-webkit-scrollbar {width: 6px;}
+.overflowY::-webkit-scrollbar-thumb {background: #fff;}
+.overflowY::-webkit-scrollbar-thumb:window-inactive {background: #fff;}
+
+.tipsMain .centerSuccess span{display: inline-block;background: #26AAD8 ;color: #fff;font-size: 16px;padding: 10px 25px;border-radius: 8px;}
+.tipsMain .centerSuccess{text-align: center;position: fixed;top: 45%;left: 0;width: 100%;}
+.tipsMain { display: none;    position: relative; z-index: 100;}
+
+.error{color:Red;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

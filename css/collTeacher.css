@@ -1,0 +1,107 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-12 14:11:38
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-13 14:22:07
+*/
+
+.expert .noticeList li {
+    height: 300px;
+    width: 600px;
+    float: left;
+}
+.expert .noticeList .noticeImg {
+    width: 245px;
+    height: 300px;
+    overflow: hidden;
+}
+.expert .noticeList .noticeImg img{
+	width: 245px;
+	height: 300px;
+}
+.expert .noticeList li dl {
+    width: 300px;
+    height: 275px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    padding: 25px 30px 0px 25px;
+    background: #ededed;
+}
+.expert .noticeList li dt {
+    position: relative;
+    padding-bottom: 15px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.expert .noticeList li dt i {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 40px;
+    height: 2px;
+    background: #d9d9d9;
+}
+.expert .noticeIntro {
+    height: 210px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 24px;
+    margin: 25px 0px 30px;
+}
+.expert .noticeIntro p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    overflow: hidden;
+     text-overflow: ellipsis;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5;
+}
+
+/* 分页开始 */
+.sigleConTxt .paginationV {
+    margin: 40px 0px 0px;
+}
+.paginationV {
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    clear: both;
+    margin: 20px auto 40px;
+}
+.paginationV span.prev, .paginationV span.next {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #c0c0c0;
+    background: #fff;
+}
+.paginationV span {
+    border: 1px solid #26aad8;
+    color: #FFF;
+    background: #26aad8;
+    padding: 8px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+.paginationV a {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #c0c0c0;
+    padding: 8px 15px;
+    margin-right: 5px;
+    background: #fff;
+}
+
+/* 分页结束 */
+
+
+

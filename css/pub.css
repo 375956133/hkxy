@@ -1,0 +1,32 @@
+/*
+* @Author: Administrator
+* @Date:   2019-02-25 11:48:06
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-02-25 15:49:15
+*/
+.autowidth {
+    width: 1280px;
+    margin: 0 auto;
+}
+.second {
+    background: #fff;
+}
+.autowidth {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header li {
+    float: left;
+    position: relative;
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 20px;
+}
+.header li>a {
+    display: block;
+    padding: 0 25px;
+    line-height: 18px;
+    border-left: 1px solid #cbcbcb;
+    color: #333;
+}

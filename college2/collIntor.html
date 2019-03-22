@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta id="Key" name="Keywords" content="工业,机器人,教育,工业机器人,机器人教育,教育网" />
+		<meta id="Des" name="Description" content="欢迎来到工业机器人教育网" />
+		<meta name="description" content="欢迎来到工业机器人教育网" />
+		<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+		<meta name="renderer" content="webkit" />
+		<link rel="stylesheet" href="../css/default.css" />
+		<link rel="stylesheet" href="../css/header.css">
+		<link rel="stylesheet" type="text/css" href="../css/college2.css" />
+		<link rel="stylesheet" href="../css/footer.css">
+		<link rel="stylesheet" href="../css/collIntor.css">
+		<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+		<title>
+		欢迎来到工业机器人教育网
+		</title>
+	</head>
+	<body class="grayBody">
+		<!-- 头部导航开始 -->
+		<div class="headNav">
+			<!-- 第一条导航开始 -->
+			<div class="first">
+				<div class="autowidth clearfix">
+					<!-- 左侧导航开始 -->
+					<ul class="headNavL fl">
+						<li class="fl headNavF">
+							<a href="http://www.irobot-edu.com/" target="_blank">
+								<img src="../images/video5.png" alt="首页" width="14" height="13">
+							首页</a>
+						</li>
+						<li class="fl">
+							<a href="#">资讯</a>
+						</li>
+						<li class="fl">
+							<a href="#">商城</a>
+						</li>
+						<li class="fl">
+							<a href="#">学院</a>
+						</li>
+						<li class="fl">
+							<a href="#">社区</a>
+						</li>
+						<li class="fl">
+							<a href="#">大赛</a>
+						</li>
+						
+					</ul>
+					<!-- 左侧导航结束 -->
+					<!-- 右侧注册 登录开始 -->
+					<ul class="headNavL headNavR fr clearfix">
+						<li class="fl">
+							<a href="#">登录</a>
+						</li>
+						<li class="fl">
+							<a href="#">注册</a>
+						</li>
+					</ul>
+					<!-- 右侧注册 登录结束 -->
+					<!-- 搜索框开始 -->
+					<div class="right fr">
+						<input id="ipt_Search" placeholder="请输入关键词" type="text" value="">
+						<a class="search" href="javascript:FnSearch();">搜索</a>
+					</div>
+					<!-- 搜索框结束 -->
+				</div>
+			</div>
+			<!-- 第一条导航结束 -->
+			<!-- 第2条导航开始 -->
+			<div class="second">
+				<div class="hover_bg" style="height: 0px;"></div>
+				<div class="autowidth  clearfix">
+					<!-- 左侧logo开始 -->
+					<div class="positionLogo fl clearfix">
+						<a href="#" target="_blank" class="logo1 fl"></a>
+						<a href="#" class="logo2 fl"></a>
+					</div>
+					<!-- 左侧logo结束 -->
+					<!-- 右边导航开始 -->
+					<div class="fr clearfix">
+						<ul class="header clearfix" id="HeadNav">
+							<li data-url="#">
+								<a href="#" class="active">
+								学院首页</a>
+							</li>
+							<li>
+								<a href="#">
+								学院概况</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">学院概况</div>
+											<div class="clearfix">
+												<a href="#" class="li2">学院介绍</a>
+												<a href="#" class="li2">发展历程</a>
+												<a href="#" class="li2">学院通告</a>
+												<a href="#" class="li2">校企合作</a>
+												<a href="#" class="li2">组织机构</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">教学理念</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">服务通告</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+								人才培养</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">人才培养</div>
+											<div class="clearfix">
+												<a href="#" class="li2">中职教育</a>
+												<a href="#" class="li2">高职教育</a>
+												<a href="#" class="li2">本科教育</a>
+												<a href="#" class="li2">工业机器人应用工程师</a>
+												<a href="#" class="li2">工业机器人系统集成工程师</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">中职教育</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">高职教育</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+								教学资源</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">教学资源</div>
+											<div class="clearfix">
+												<a href="#" class="li2">推荐教材</a>
+												<a href="#" class="li2">培训装备</a>
+												<a href="#" class="li2">教学视频</a>
+												<a href="#" class="li2">配套教案</a>
+												<a href="#" class="li2">考核题库</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">推荐教材</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">培训装备</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+								师资队伍</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">师资队伍</div>
+											<div class="clearfix">
+												<a href="#" class="li2">专家教授</a>
+												<a href="#" class="li2">高级顾问</a>
+												<a href="#" class="li2">讲师团队</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">专家教授</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">高级顾问</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+								在线学堂</a>
+								
+							</li>
+							<li>
+								<a href="#">
+								培训认证</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">培训认证</div>
+											<div class="clearfix">
+												<a href="#" class="li2">培训课程</a>
+												<a href="#" class="li2">证书查询</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">培训课程</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">证书查询</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+								就业发展</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">就业发展</div>
+											<div class="clearfix">
+												<a href="#" class="li2">招聘信息</a>
+												<a href="#" class="li2">实习岗位</a>
+												<a href="#" class="li2">学生感言</a>
+												<a href="#" class="li2">就业情况</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">机械工程师</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">销售经理</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- 右边导航结束 -->
+				</div>
+			</div>
+			<!-- 第2条导航结束 -->
+		</div>
+		<!-- 头部导航结束 -->
+		
+		<!-- 通栏图片盒子开始 -->
+		<div class="collSubBan">
+			<a  href ='' target="_blank" title="">
+			<img src="../images/schoolgk.jpg" width="100%;" height="auto"/></a>
+		</div>
+		<!-- 通栏图片盒子结束 -->
+		<!-- 跳转开始 -->
+		<div class="subNav">
+			<div class="autowidth clearfix">
+				<div class="fl subNavMenu">
+					<a href="collSpeech.html" class="active">学院介绍<i></i></a>
+					<dl>
+						<dt><img src="../images/coll37.png" width="138" height="21"></dt>
+						<dd><a href="collSpeech.html">院长致辞</a></dd>
+						<dd><a href="collIntor.html">学院简介</a></dd>
+						<dd><a href="collIdea.html" class="active">教学理念</a></dd>
+						<dd><a href="collfengcai.html" style="border-bottom: 0px;">学院风采</a></dd>
+					</dl>
+				</div>
+				<div class="fl subNavMenu">
+					<a href="collNotice.html">学院通告<i></i></a>
+				</div>
+				<div class="fl subNavMenu">
+					<a href="collOrg.html">组织机构<i></i></a>
+				</div>
+				<div class="fl subNavMenu">
+					<a href="collHistory.html">发展历程<i></i></a>
+				</div>
+				<div class="fl subNavMenu">
+					<a href="collSchool.html">校企合作<i></i></a>
+				</div>
+				<div class="collBread fr">
+					<a href="index.html">学院首页</a>&gt;<a href="collSpeech.html">学院概况</a>&gt;
+					<a href="collSpeech.html">学院介绍</a>&gt;<span>学院简介</span>
+				</div>
+			</div>
+		</div>
+		<!-- 跳转结束 -->
+		<!-- 学院简介开始 -->
+		<div class="sigleCon">
+			<!-- 版心开始 -->
+			<div class="autowidth">
+				<div class="sigleT">
+					<em>introduction</em>
+					<span style="margin-left: -60px;">学院简介</span>
+					<i></i>
+				</div>
+				<!-- 内容开始 -->
+				<div class="sigleConTxt">
+					<ul class="collIntroList" style="margin-top:0px;">
+						<li class="clearfix" style="height:398px;">
+							<div class="fl" style="width:590px;">
+								<img src="../images/collIntro1.jpg" width="590" height="398">
+							</div>
+							<dl class="fl" style="width:530px; height:338px;">
+								<dd>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<p class="p1">
+									<span>哈尔滨工业大学</span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut tenetur harum, laborum consequatur in vitae culpa voluptate quia sunt accusamus dolore, aperiam earum inventore placeat itaque aliquid eius laboriosam necessitatibusLorem ipsum dolor sit amet, consectetur adipisicing elit. Ut tenetur harum, laborum consequatur in vitae culpa voluptate quia sunt accusamus dolore, aperiam earum inventore placeat itaque aliquid eius laboriosam necessitatibus..
+								</p>
+								
+								</dd>
+							</dl>
+						</li>
+					</ul>
+					<p>哈工大机器人集团（HRG）是由黑龙江省政府、哈尔滨市政府、哈尔滨工业大学共同投资组建的高新技术企业，公司成立于2014年12月。<br>
+						拥有全国顶尖的从事机器人研究的科学家，其中有院士、长江学者、中组部千人计划入围者、国家杰出青年基金获得者、国家中组部首批中青年科技领军人才，国家中组部首批青年拔尖人才，国家优秀青年基金获得者等优秀人才。
+					</p>
+					<p><img src="../images/collIntro2.jpg" width="1200" height="279"></p>
+					<p>江苏哈工海渡工业机器人有限公司，（简称“哈工海渡”），江苏哈工海渡工业机器人有限公司（EDUBOT）是哈工大机器人集团旗下唯一一家专注于工业机器人教育装备与教学体系建设的子公司，专注于工业机器人教育装备的研发及教学体系的建设，是专门从事机器人技术研发与产业化的高新技术企业实训装备、仿真教学软件、实训教材与教学管理平台的一体。<br>
+						哈工海渡机器人学院，简称“海渡学院”，隶属哈工大机器人集团旗下江苏哈工海渡工业机器人有限公司。是国内首家“工业机器人应用工程师”培训认证机构，也是全国知名工业机器人教育培训基地。
+					</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, maxime expedita ullam animi quisquam voluptate ut blanditiis velit dolor perspiciatis, quo laborum reprehenderit reiciendis. Ipsa, magnam unde quo quaerat asperiores.</p>
+					<!-- 细线开始 -->
+					<div class="spiltLine"></div>
+					<!-- 细线结束 -->
+					<!-- 横线下部开始 -->
+					<ul class="collIntroList">
+						<li class="clearfix">
+							<dl class="fl">
+								<dt>培训基地<i class="desLine"></i></dt>
+								<dd>
+								<p>
+									依托哈尔滨工业大学多年的机器人研究技术及行业应用经验沉淀，专注于工业机器人教学培训与人才培养，是业界率先通过ISO9001:2008质量认证的工业机器人培训机构。
+									根据工业机器人培训市场需求，建立了哈工海渡机器人学院作为培训基地，用于开展培训项目。下设哈工海渡机器人学院区域分院、“工业机器人应用工程师”培训考核基地、“工业机器人应用工程师”教学培训基地、“工业机器人应用工程师”校企合作基地。Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus maxime corporis, explicabo quidem doloremque perspiciatis, similique earum esse voluptatem error tempore repudiandae iusto ex ea quasi id, voluptatibus repellendus nostrum.
+								</p>
+								</dd>
+							</dl>
+							<div class="fl">
+								<img src="../images/collIntro3.jpg" width="580" height="280">
+							</div>
+						</li>
+						<li class="clearfix" style="background:#fff; margin-bottom:0px;">
+							<dl class="fl" style="padding-top:0px; padding-bottom:0px; width:1120px; background:#fff; height:auto;">
+								<dt>培训认证<i class="desLine"></i></dt>
+							</dl>
+							<div style="width:100%"><p style="padding-left:40px;"><img src="../images/collIntro4.jpg" width="1124" height="379"></p></div>
+							<p style="padding-left:40px; margin-bottom:0px;">作为国内首家“工业机器人应用工程师”培训认证机构，学员参加相关培训，考核通过可获得工信部教育与考试中心颁发的《工业机器人应用工程师》职业技术证书，学员资料统一纳入工业和信息化人才资源数据库。同期，公司开始建设包括“工业机器人应用工程师”培训考核基地、“工业机器人应用工程师”教学培训基地、“工业机器人应用工程师”校企合作基地在内的“五个基地”，正式在全国范围内布局。<br>
+								海渡学院面向院校、企业、社会三个方面共建人才培养基地，结合不同的教育特色和教学重点，培养高技能和紧缺人才。<br>
+							本着互利共赢的原则，哈工海渡与工业和信息化部教育与考试中心开展了多方面的深层次项目合作，共同开展 “工业机器人应用工程师”人才培养合作项目，助力中国制造2025推动中国向智造强国转变。培训考核合格者可获得工信部相关部门颁发的职业技术证书，学员纳入工业和信息化人才库，证书工信部官网可查，行业认可。</p>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<img src="../images/coll40.jpg" width="580" height="280">
+							</div>
+							<dl class="fl" style=" ">
+								<dd><p>&nbsp;</p></dd>
+								<dt>企业定位<i class="desLine"></i></dt>
+								<dd>
+								<p>立足工业，面向教育，聚焦人才，服务社会。</p>
+								<p>专注工业机器人教育，做工业机器人教育产业的领跑者！</p>
+								</dd>
+							</dl>
+						</li>
+						<li class="clearfix" style="margin-bottom:0px;">
+							<dl class="fl" style=" height:244px;">
+								<dt>企业使命<i class="desLine"></i></dt>
+								<dd>
+								<p>哈工海渡作为机器人行业顶尖学府哈尔滨工业大学的产学研企业，有责任和义务开发接近工业实际应用并且针对教学需求专门做了优化设计的机器人产品，针对当前中国机器人产业迫切需要培养多类型专业人才及基础教育工作面临的师资严重短缺的情况，通过将领先的核心技术与积累的丰富实践应用到机器人教学工作当中，助力国内工业、教学等领域智能制造的实现，以人才作为产业发展的根本支撑。
+								</p>
+								</dd>
+							</dl>
+							<div class="fl" style="height:304px;">
+								<img src="../images/coll42.jpg" width="580" height="304">
+							</div>
+						</li>
+					</ul>
+					<!-- 横线下部结束 -->
+				</div>
+				<!-- 内容结束 -->
+			</div>
+			<!-- 版心结束 -->
+		</div>
+		<!-- 学院简介结束 -->
+		<!-- 底部开始 -->
+		<div class="footer_1">
+			<div class="autowidth clearfix">
+				<div class="fl clearfix">
+					<dl>
+						<dt><a href="#">首页<span></span></a></dt>
+					</dl>
+					<dl>
+						<dt><a href="#">资讯<span></span></a></dt>
+						
+						<dd>
+						<a href="#">行业政策</a>
+						</dd>
+						
+						<dd>
+						<a href="#">国内动态</a>
+						</dd>
+						
+						<dd>
+						<a href="#">国外动态</a>
+						</dd>
+						
+						<dd>
+						<a href="#">展会信息</a>
+						</dd>
+						
+					</dl>
+					<dl>
+						<dt>
+						<a href="#">商城<span></span></a>
+						</dt>
+						
+						<dd>
+						<a href="#">
+						工业机器人</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						教学装备</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						书籍教材</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						核心部件</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						系统集成</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						科教娱乐</a>
+						</dd>
+						
+					</dl>
+					<dl>
+						<dt><a href="#">学院<span></span></a></dt>
+						<dd><a href="#">学院概况</a></dd>
+						<dd><a href="#">人才培养</a></dd>
+						<dd><a href="#">教学资源</a></dd>
+						<dd><a href="#">师资队伍</a></dd>
+						<dd><a href="#">在线学堂</a></dd>
+						<dd><a href="#">培训认证</a></dd>
+						<dd><a href="#">就业发展</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="#" target="_blank">社区<span></span></a></dt>
+						<dd><a href="#">社区</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="#">大赛<span></span></a></dt>
+						<dd><a href="#">大赛介绍</a></dd>
+						<dd><a href="#">初赛作品</a></dd>
+						<dd><a href="#">决赛盛况</a></dd>
+						<dd><a href="#">往期回顾</a></dd>
+					</dl>
+				</div>
+				<div class="fr">
+					<div class="top">
+						<div class="youqing">
+							<input readonly="" value="友情链接">
+							<img class="img" src="../images/jj.png">
+							<div class="lianjie" style="display: none;">
+								<a href="http://www.edubot.cn/" target="_blank">江苏哈工海渡工业机器人有限公司</a>
+								<a href="http://www.hitrobotgroup.com/" target="_blank">哈工大机器人集团</a>
+								<a href="http://www.wozuo.com/" target="_blank">我做网</a>
+							</div>
+						</div>
+					</div>
+					<div class="bottom">
+						<a class="a1" href="javascript:;">
+							<img src="../images/codeCom.jpg" width="120" height="120">
+						</a>
+						<a class="a2" href="javascript:;">
+							<img src="../images/codeCom2.png" width="120" height="120">
+						</a>
+						<a class="a3" href="javascript:;">
+							<img src="../images/codeCom3.jpg" width="120" height="120">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部结束 -->
+		<!-- 版权开始 -->
+		<div class="footer_2">
+			<div class="autowidth clearfix">
+				<div class="fl">
+					<a href="#" target="_blank"></a> Copyright 2013昊科世纪 www.haokeshiji.com 版权所有 All Rights Reserved
+				</div>
+				<div class="fr">
+					<a href="../college2/help.html">帮助中心 </a>
+					<span>|</span>
+				</div>
+			</div>
+		</div>
+		<!-- 版权结束 -->
+		<script type="text/javascript" src="../js/public.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript" src="../js/GetDatePage.js"></script>
+		<script src="../js/kxbdSuperMarquee.js"></script>
+	</body>
+</html>
