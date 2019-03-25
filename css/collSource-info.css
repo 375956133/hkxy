@@ -1,0 +1,119 @@
+/*
+* @Author: Administrator
+* @Date:   2019-03-25 09:32:20
+* @Last Modified by:   375956133
+* @Last Modified time: 2019-03-25 14:35:03
+*/
+
+ .bookinfo{
+margin-top: 50px;
+ }
+/* 左边开始 */
+.leftbox{
+	border: 1px solid #ccc;
+}
+.topbox {
+background:#0C3869;
+padding:10px;
+position: relative;
+}
+
+.topbox h4{
+	color:#fff;
+	font-size: 26px;
+}
+.bottombox li{
+border-bottom: 1px solid #ccc;
+padding:8px 5px;
+}
+.hidebox{
+	background: #2767AD;
+	position: absolute;
+	top:69px;
+	left:0;
+	z-index: 999;
+	width: 100%;
+	display: none;
+
+}
+.topbox:hover .hidebox{
+display: block;
+}
+.hidebox li{
+border-bottom: 1px solid #ccc;
+padding:20px;
+color:#fff;
+font-size: 18px;
+}
+.hidebox span{
+font-size: 14px;
+color:#ccc;
+}
+.bottombox span{
+    margin-right: 10px;
+}
+
+.bottombox li.actice span{
+color:red;
+}
+.ulbox{
+	position: absolute;
+	left:260px;
+	top:0px;
+	background:#2767AD;
+	width: 300px;
+	height: 556px;
+	opacity: .8;
+	overflow: hidden;
+}
+.hidebox ul li .ulbox{
+	display: none;
+}
+.hidebox ul li:hover .ulbox{
+display: block;
+}
+.ulbox li {
+	padding:14px;
+}
+.ulbox li a{
+	color:#fff;
+}
+.bottombox .fristli{
+	font-size: 18px;
+	color:#B71B2C;
+}
+.bottombox .activeli{
+	font-size: 14px;
+	color:#B71B2C;
+}
+/* 左边结束 */
+.bookinfo h3{
+	color:#26aad8;
+}
+.bookinfo img{
+	width:420px;
+	height: 360px;
+
+}
+.bookinfo .title{
+	font-size: 17px;
+}
+.bookinfo .but{
+	margin-top: 100px;
+	padding:10px;
+	width: 200px;
+	font-size: 20px;
+}
+.bookinfo strong{
+	font-size: 16px;
+	color:blue;
+	margin-bottom: 20px;
+	display: block;
+
+}
+.bookinfo .p-info{
+font-size: 16px;
+color:#666;
+text-indent: 34px;
+margin-bottom: 20px;
+}
