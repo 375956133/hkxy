@@ -1,14 +1,14 @@
 /*
 * @Author: Administrator
-* @Date:   2019-03-25 09:32:20
+* @Date:   2019-03-26 09:19:50
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-03-26 09:23:43
+* @Last Modified time: 2019-03-26 09:23:35
 */
 
- .bookinfo{
-margin-top: 50px;
-margin-bottom: 20px;
- }
+.source-tab {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
 /* 左边开始 */
 .leftbox{
 	border: 1px solid #ccc;
@@ -88,33 +88,3 @@ display: block;
 	color:#B71B2C;
 }
 /* 左边结束 */
-.bookinfo h3{
-	color:#26aad8;
-}
-.bookinfo img{
-	width:420px;
-	height: 360px;
-
-}
-.bookinfo .title{
-	font-size: 17px;
-}
-.bookinfo .but{
-	margin-top: 100px;
-	padding:10px;
-	width: 200px;
-	font-size: 20px;
-}
-.bookinfo strong{
-	font-size: 16px;
-	color:blue;
-	margin-bottom: 20px;
-	display: block;
-
-}
-.bookinfo .p-info{
-font-size: 16px;
-color:#666;
-text-indent: 34px;
-margin-bottom: 20px;
-}

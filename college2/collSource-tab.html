@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="../css/default.css" />
+		<link rel="stylesheet" href="../css/header.css">
+		<link rel="stylesheet" href="../css/footer.css">
+		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/collSource-tab.css">
+		<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+		<script src="../js/header.js"></script>
+	</head>
+	<body>
+		<!-- 头部导航开始 -->
+		<div class="headNav">
+			<!-- 第一条导航开始 -->
+			<div class="first">
+				<div class="autowidth clearfix">
+					<!-- 左侧导航开始 -->
+					<ul class="headNavL fl">
+						<li class="fl headNavF">
+							<a href="http://www.irobot-edu.com/" target="_blank">
+								<img src="../images/video5.png" alt="首页" width="14" height="13">
+							首页</a>
+						</li>
+						<li class="fl">
+							<a href="#">资讯</a>
+						</li>
+						<li class="fl">
+							<a href="#">商城</a>
+						</li>
+						<li class="fl">
+							<a href="#">学院</a>
+						</li>
+						<li class="fl">
+							<a href="#">社区</a>
+						</li>
+						<li class="fl">
+							<a href="#">大赛</a>
+						</li>
+					</ul>
+					
+					<!-- 左侧导航结束 -->
+					<!-- 右侧注册 登录开始 -->
+					<ul class="headNavL headNavR fr clearfix">
+						<li class="fl">
+							<a href="#">登录</a>
+						</li>
+						<li class="fl">
+							<a href="#">注册</a>
+						</li>
+					</ul>
+					<!-- 右侧注册 登录结束 -->
+					<!-- 搜索框开始 -->
+					<div class="right fr">
+						<input id="ipt_Search" placeholder="请输入关键词" type="text" value="">
+						<a class="search" href="javascript:FnSearch();">搜索</a>
+					</div>
+					<!-- 搜索框结束 -->
+				</div>
+			</div>
+			<!-- 第一条导航结束 -->
+			<!-- 第2条导航开始 -->
+			<div class="second">
+				<div class="hover_bg" style="height: 0px;"></div>
+				<div class="autowidth  clearfix">
+					<!-- 左侧logo开始 -->
+					<div class="positionLogo fl clearfix">
+						<a href="#" target="_blank" class="logo1 fl"></a>
+						<a href="#" class="logo2 fl"></a>
+					</div>
+					<!-- 左侧logo结束 -->
+					<!-- 右边导航开始 -->
+					<div class="fr clearfix">
+						<ul class="header clearfix" id="HeadNav">
+							<li data-url="#">
+								<a href="#" class="active">
+								学院首页</a>
+							</li>
+							<li>
+								<a href="#">
+								学院概况</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">学院概况</div>
+											<div class="clearfix">
+												<a href="#" class="li2">学院介绍</a>
+												<a href="#" class="li2">发展历程</a>
+												<a href="#" class="li2">学院通告</a>
+												<a href="#" class="li2">校企合作</a>
+												<a href="#" class="li2">组织机构</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">教学理念</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">服务通告</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+								人才培养</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">人才培养</div>
+											<div class="clearfix">
+												<a href="#" class="li2">中职教育</a>
+												<a href="#" class="li2">高职教育</a>
+												<a href="#" class="li2">本科教育</a>
+												<a href="#" class="li2">工业机器人应用工程师</a>
+												<a href="#" class="li2">工业机器人系统集成工程师</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">中职教育</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">高职教育</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+								教学资源</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">教学资源</div>
+											<div class="clearfix">
+												<a href="#" class="li2">推荐教材</a>
+												<a href="#" class="li2">培训装备</a>
+												<a href="#" class="li2">教学视频</a>
+												<a href="#" class="li2">配套教案</a>
+												<a href="#" class="li2">考核题库</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">推荐教材</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">培训装备</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+								师资队伍</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">师资队伍</div>
+											<div class="clearfix">
+												<a href="#" class="li2">专家教授</a>
+												<a href="#" class="li2">高级顾问</a>
+												<a href="#" class="li2">讲师团队</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">专家教授</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">高级顾问</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+								在线学堂</a>
+								
+							</li>
+							<li>
+								<a href="#">
+								培训认证</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">培训认证</div>
+											<div class="clearfix">
+												<a href="#" class="li2">培训课程</a>
+												<a href="#" class="li2">证书查询</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">培训课程</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">证书查询</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+								就业发展</a>
+								<div class="dl_1 clearfix">
+									<div class="b_padd clearfix">
+										<div class="box1_f1">
+											<div class="dt">就业发展</div>
+											<div class="clearfix">
+												<a href="#" class="li2">招聘信息</a>
+												<a href="#" class="li2">实习岗位</a>
+												<a href="#" class="li2">学生感言</a>
+												<a href="#" class="li2">就业情况</a>
+											</div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">机械工程师</a></div>
+										</div>
+										<div class="box1_f2">
+											<a href="#" class="img1">
+												<img src="../images/hidenav.jpg" width="288" height="134">
+											</a>
+											<div class="p"><a href="">销售经理</a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- 右边导航结束 -->
+				</div>
+			</div>
+			<!-- 第2条导航结束 -->
+		</div>
+		<!-- 头部导航结束 -->
+		
+		<!-- 内容开始 -->
+		<div class="container source-tab">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="leftbox">
+						<div class="topbox">
+							<h4>全部商品分类<span class="glyphicon glyphicon-menu-down fr"></span></h4>
+							<div class="hidebox">
+								<ul>
+									<li>
+										工业机器人<br><span>ABB KUKA 安川 川崎</span>
+										<div class="ulbox">
+											<ul>
+												<li><a href="#">ABB</a></li>
+												<li><a href="#">KUKA</a></li>
+												<li><a href="#">安川</a></li>
+												<li><a href="#">川崎</a></li>
+												
+											</ul>
+										</div>
+									</li>
+									<li>
+										教学装备<br><span>实训柜  实训台</span>
+										<div class="ulbox">
+											<ul>
+												<li><a href="#">实训柜</a></li>
+												<li><a href="#">实训台</a></li>
+												<li><a href="#">实验台</a></li>
+												<li><a href="#">实训站</a></li>
+												<li><a href="#">实训线</a></li>
+												<li><a href="#">工业沙盘</a></li>
+												<li><a href="#">桌面机器人</a></li>
+												<li><a href="#">机器人机器人本体</a></li>
+												<li><a href="#">智能机器人</a></li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										书籍教材<br><span>教材 实训指导</span>
+										<div class="ulbox">
+											<ul>
+												<li><a href="#">教材</a></li>
+												<li><a href="#">实训指导</a></li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										核心部件<br><span>电机 驱动器</span>
+										<div class="ulbox">
+											<ul>
+												<li><a href="#">电机</a></li>
+												<li><a href="#">驱动器</a></li>
+												<li><a href="#">PLC</a></li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										系统集成<br><span>喷涂 焊接 打磨</span>
+										<div class="ulbox">
+											<ul>
+												<li><a href="#">喷涂</a></li>
+												<li><a href="#">焊接</a></li>
+												<li><a href="#">打磨</a></li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										科教娱乐<br><span>指令型  互动型  服务型</span>
+										<div class="ulbox">
+											<ul>
+												<li><a href="#">指令型</a></li>
+												<li><a href="#">互动型</a></li>
+												<li><a href="#">服务型</a></li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="bottombox">
+							<ul>
+								<li class="fristli">
+									书籍教材
+									<span class="glyphicon glyphicon-menu-down fr"></span>
+								</li>
+								<li class="activeli">
+									教材
+									<span class="glyphicon glyphicon-menu-right fr"></span>
+								</li>
+								<li>
+									实训指导
+									<span class="glyphicon glyphicon-menu-right fr"></span>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-9">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aliquid dolorem quibusdam, voluptas, deleniti accusamus quis praesentium, accusantium fugit asperiores earum. Fugiat cum recusandae, explicabo nobis quis odit blanditiis repellat.</p>
+				</div>
+			</div>
+			
+		</div>
+		<!-- 内容结束 -->
+		<!-- 底部开始 -->
+		<div class="footer_1">
+			<div class="autowidth clearfix">
+				<div class="fl clearfix">
+					<dl>
+						<dt><a href="#">首页<span></span></a></dt>
+					</dl>
+					<dl>
+						<dt><a href="#">资讯<span></span></a></dt>
+						
+						<dd>
+						<a href="#">行业政策</a>
+						</dd>
+						
+						<dd>
+						<a href="#">国内动态</a>
+						</dd>
+						
+						<dd>
+						<a href="#">国外动态</a>
+						</dd>
+						
+						<dd>
+						<a href="#">展会信息</a>
+						</dd>
+						
+					</dl>
+					<dl>
+						<dt>
+						<a href="#">商城<span></span></a>
+						</dt>
+						
+						<dd>
+						<a href="#">
+						工业机器人</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						教学装备</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						书籍教材</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						核心部件</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						系统集成</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						科教娱乐</a>
+						</dd>
+						
+					</dl>
+					<dl>
+						<dt><a href="#">学院<span></span></a></dt>
+						<dd><a href="#">学院概况</a></dd>
+						<dd><a href="#">人才培养</a></dd>
+						<dd><a href="#">教学资源</a></dd>
+						<dd><a href="#">师资队伍</a></dd>
+						<dd><a href="#">在线学堂</a></dd>
+						<dd><a href="#">培训认证</a></dd>
+						<dd><a href="#">就业发展</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="#" target="_blank">社区<span></span></a></dt>
+						<dd><a href="#">社区</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="#">大赛<span></span></a></dt>
+						<dd><a href="#">大赛介绍</a></dd>
+						<dd><a href="#">初赛作品</a></dd>
+						<dd><a href="#">决赛盛况</a></dd>
+						<dd><a href="#">往期回顾</a></dd>
+					</dl>
+				</div>
+				<div class="fr">
+					<div class="top">
+						<div class="youqing">
+							<input readonly="" value="友情链接">
+							<img class="img" src="../images/jj.png">
+							<div class="lianjie" style="display: none;">
+								<a href="http://www.edubot.cn/" target="_blank">江苏哈工海渡工业机器人有限公司</a>
+								<a href="http://www.hitrobotgroup.com/" target="_blank">哈工大机器人集团</a>
+								<a href="http://www.wozuo.com/" target="_blank">我做网</a>
+							</div>
+						</div>
+					</div>
+					<div class="bottom">
+						<a class="a1" href="javascript:;">
+							<img src="../images/codeCom.jpg" width="120" height="316">
+						</a>
+						<a class="a2" href="javascript:;">
+							<img src="../images/codeCom2.png" width="120" height="120">
+						</a>
+						<a class="a3" href="javascript:;">
+							<img src="../images/codeCom3.jpg" width="120" height="120">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部结束 -->
+		<!-- 版权开始 -->
+		<div class="footer_2">
+			<div class="autowidth clearfix">
+				<div class="fl">
+					<a href="#" target="_blank"></a> Copyright 2013昊科世纪 www.haokeshiji.com 版权所有 All Rights Reserved
+				</div>
+				<div class="fr">
+					<a href="../college2/help.html">帮助中心 </a>
+					<span>|</span>
+				</div>
+			</div>
+		</div>
+		<!-- 版权结束 -->
+	</body>
+</html>
