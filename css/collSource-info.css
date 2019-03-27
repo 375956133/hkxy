@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2019-03-25 09:32:20
-* @Last Modified by:   Administrator
-* @Last Modified time: 2019-03-26 15:49:17
+* @Last Modified by:   375956133
+* @Last Modified time: 2019-03-27 14:19:17
 */
 
  .bookinfo{
@@ -119,15 +119,36 @@ text-indent: 34px;
 margin-bottom: 20px;
 }
 /* 图片盒子开始 */
-.zoomDiv{
-	width: 530px;
-	height: 530px;
-    position: absolute;
-   top: 183px;
-	left: 1121.5px;
-	z-index: 999;
-    background: #ffffff;
-    text-align: center;
-    overflow: hidden;
+
+#ink_showImg {
+    height: 360px;
+    width: 420px;
+    position: relative;
+    float: left;
+    z-index: 5;
 }
+#ink_showImg .small_pic {
+    background:#fff;
+    position: relative;
+    height: 100%;
+}
+#ink_showImg .small_pic .img {
+    background: #fff;
+    width: 420px;
+    height: 360px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+div.zoomMask {
+    position: absolute;
+    background: rgba(0,0,0,0.2);
+    cursor: move;
+    z-index: 10;
+    width: 150px !important;
+    height: 150px !important;
+}
+
 /* 图片盒子结束 */

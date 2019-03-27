@@ -8,12 +8,12 @@
 		<link rel="stylesheet" href="../css/header.css">
 		<link rel="stylesheet" href="../css/footer.css">
 		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/shooping.css" />
 		<link rel="stylesheet" href="../css/collSource-info.css">
 		<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
 		<script src="../js/header.js"></script>
-		<script src="../js/public.js"></script>
-		<script src="http://www.irobot-edu.com/js/qiehuan.js"></script>
-		<script src="http://www.irobot-edu.com/js/jquery.imagezoom.min.js"></script>
+		<script src="../js/jquery.imagezoom.min.js"></script>
+		<script src="../js/collSource-info.js"></script>
 	</head>
 	<body>
 		<!-- 头部导航开始 -->
@@ -372,7 +372,24 @@
 				<div class="col-md-9">
 					<div class="row" style="margin-bottom:30px;position:relative;">
 						<div class="col-md-6">
-							<img src="../images/book.jpg">
+							<!-- 小图盒子开始 -->
+							<div id="ink_showImg">
+								<div class="small_pic">
+									<div class="allImg">
+										<img src="../images/book.jpg" class="img" style="display: block; cursor: crosshair;height:370px;width:370px;">
+									</div>
+								</div>
+							</div>
+							<!-- 小图盒子结束 -->
+
+							<!-- 大图盒子开始 -->
+							<div class="zoomDiv" style="top: 183px; left: 1121.5px; width: 530px; height: 530px;">
+								<img class="bigimg" src="../images/bookbig.jpg" style="width:530px;height:530px;">
+							</div>
+							<!-- 大图盒子结束 -->
+							<!-- 遮罩盒子开始 -->
+							<div class="zoomMask" style="width: 351.125px; height: 351.125px; visibility: visible;">&nbsp;</div>
+							<!-- 遮罩盒子结束 -->
 						</div>
 						
 						<div class="col-md-6">
@@ -403,10 +420,8 @@
 							</p>
 						</div>
 					</div>
-					
 				</div>
 			</div>
-			
 		</div>
 		<!-- 内容结束 -->
 		<!-- 底部开始 -->
@@ -534,12 +549,5 @@
 			</div>
 		</div>
 		<!-- 版权结束 -->
-		
-		<div class="zoomDiv">
-			<img class="bigimg" src="../images/bookbig.jpg" height="530" width="530">
-		</div>
-		<!-- 遮罩盒子开始 -->
-		<div class="zoomMask" style="width: 351.125px; height: 351.125px; visibility: visible; top: 563px; left: 591.5px;">&nbsp;</div>
-		<!-- 遮罩盒子结束 -->
 	</body>
 </html>
