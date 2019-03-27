@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-03-25 09:32:20
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-03-26 09:23:43
+* @Last Modified time: 2019-03-26 15:49:17
 */
 
  .bookinfo{
@@ -118,3 +118,16 @@ color:#666;
 text-indent: 34px;
 margin-bottom: 20px;
 }
+/* 图片盒子开始 */
+.zoomDiv{
+	width: 530px;
+	height: 530px;
+    position: absolute;
+   top: 183px;
+	left: 1121.5px;
+	z-index: 999;
+    background: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+/* 图片盒子结束 */
