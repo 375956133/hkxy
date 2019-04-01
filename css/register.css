@@ -1,0 +1,19 @@
+/*
+* @Author: Administrator
+* @Date:   2019-04-01 10:08:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-04-01 11:39:03
+*/
+
+#register{
+	background: url(../images/zcbg.jpg) no-repeat;
+	padding-bottom: 180px;
+}
+.register{
+	background: #fff;
+	padding:30px;
+	margin-top: 120px;
+}
+.register a{
+color:red;
+}

@@ -3,69 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Document</title>
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link rel="stylesheet" href="../css/default.css" />
 		<link rel="stylesheet" href="../css/header.css">
 		<link rel="stylesheet" href="../css/footer.css">
 		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-		<link rel="stylesheet" href="../css/lesson-info.css">
-		<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
-		<script src="https://cdn.bootcss.com/vue/2.6.8/vue.min.js"></script>
-		<script src="https://cdn.bootcss.com/vue-router/2.6.0/vue-router.min.js"></script>
-		<script src="https://cdn.bootcss.com/axios/0.19.0-beta.1/axios.min.js"></script>
-		<script src="https://cdn.bootcss.com/iScroll/5.2.0/iscroll.min.js"></script>
-
+		<link rel="stylesheet" href="../css/register.css">
+		<script src="../js/jquery-1.9.1.min.js"></script>
+		<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	</head>
-	<body onload="loaded()">
+	<body >
 		<!-- 头部导航开始 -->
 		<div class="headNav">
-			<!-- 第一条导航开始 -->
-			<div class="first">
-				<div class="autowidth clearfix">
-					<!-- 左侧导航开始 -->
-					<ul class="headNavL fl">
-						<li class="fl headNavF">
-							<a href="http://www.irobot-edu.com/" target="_blank">
-								<img src="../images/video5.png" alt="首页" width="14" height="13">
-							首页</a>
-						</li>
-						<li class="fl">
-							<a href="#">资讯</a>
-						</li>
-						<li class="fl">
-							<a href="#">商城</a>
-						</li>
-						<li class="fl">
-							<a href="#">学院</a>
-						</li>
-						<li class="fl">
-							<a href="#">社区</a>
-						</li>
-						<li class="fl">
-							<a href="#">大赛</a>
-						</li>
-					</ul>
-					
-					<!-- 左侧导航结束 -->
-					<!-- 右侧注册 登录开始 -->
-					<ul class="headNavL headNavR fr clearfix">
-						<li class="fl">
-							<a href="#">登录</a>
-						</li>
-						<li class="fl">
-							<a href="#">注册</a>
-						</li>
-					</ul>
-					<!-- 右侧注册 登录结束 -->
-					<!-- 搜索框开始 -->
-					<div class="right fr">
-						<input id="ipt_Search" placeholder="请输入关键词" type="text" value="">
-						<a class="search" href="javascript:FnSearch();">搜索</a>
-					</div>
-					<!-- 搜索框结束 -->
-				</div>
-			</div>
-			<!-- 第一条导航结束 -->
 			<!-- 第2条导航开始 -->
 			<div class="second">
 				<div class="hover_bg" style="height: 0px;"></div>
@@ -270,144 +218,165 @@
 			<!-- 第2条导航结束 -->
 		</div>
 		<!-- 头部导航结束 -->
-		
-		<!-- 内容开始 -->
-		<div class="container" style="padding-top:50px;">
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-				<video src="video/lesson.mp4" style="width:100%;" controls="controls"></video>
-				
-			</div>
-			<div class="col-md-2"></div>
-		</div>
-	</div>
-	<!-- 内容结束 -->
-	<!-- 底部开始 -->
-	<div class="footer_1">
-		<div class="autowidth clearfix">
-			<div class="fl clearfix">
-				<dl>
-					<dt><a href="#">首页<span></span></a></dt>
-				</dl>
-				<dl>
-					<dt><a href="#">资讯<span></span></a></dt>
-					
-					<dd>
-					<a href="#">行业政策</a>
-					</dd>
-					
-					<dd>
-					<a href="#">国内动态</a>
-					</dd>
-					
-					<dd>
-					<a href="#">国外动态</a>
-					</dd>
-					
-					<dd>
-					<a href="#">展会信息</a>
-					</dd>
-					
-				</dl>
-				<dl>
-					<dt>
-					<a href="#">商城<span></span></a>
-					</dt>
-					
-					<dd>
-					<a href="#">
-					工业机器人</a>
-					</dd>
-					
-					<dd>
-					<a href="#">
-					教学装备</a>
-					</dd>
-					
-					<dd>
-					<a href="#">
-					书籍教材</a>
-					</dd>
-					
-					<dd>
-					<a href="#">
-					核心部件</a>
-					</dd>
-					
-					<dd>
-					<a href="#">
-					系统集成</a>
-					</dd>
-					
-					<dd>
-					<a href="#">
-					科教娱乐</a>
-					</dd>
-					
-				</dl>
-				<dl>
-					<dt><a href="#">学院<span></span></a></dt>
-					<dd><a href="#">学院概况</a></dd>
-					<dd><a href="#">人才培养</a></dd>
-					<dd><a href="#">教学资源</a></dd>
-					<dd><a href="#">师资队伍</a></dd>
-					<dd><a href="#">在线学堂</a></dd>
-					<dd><a href="#">培训认证</a></dd>
-					<dd><a href="#">就业发展</a></dd>
-				</dl>
-				<dl>
-					<dt><a href="#" target="_blank">社区<span></span></a></dt>
-					<dd><a href="#">社区</a></dd>
-				</dl>
-				<dl>
-					<dt><a href="#">大赛<span></span></a></dt>
-					<dd><a href="#">大赛介绍</a></dd>
-					<dd><a href="#">初赛作品</a></dd>
-					<dd><a href="#">决赛盛况</a></dd>
-					<dd><a href="#">往期回顾</a></dd>
-				</dl>
-			</div>
-			<div class="fr">
-				<div class="top">
-					<div class="youqing">
-						<input readonly="" value="友情链接">
-						<img class="img" src="../images/jj.png">
-						<div class="lianjie" style="display: none;">
-							<a href="http://www.edubot.cn/" target="_blank">江苏哈工海渡工业机器人有限公司</a>
-							<a href="http://www.hitrobotgroup.com/" target="_blank">哈工大机器人集团</a>
-							<a href="http://www.wozuo.com/" target="_blank">我做网</a>
-						</div>
+		<!-- 注册开始 -->
+		<div id="register">
+			<div class="container">
+				<div class="row  register">
+					<div class="col-md-6">
+						<h3>新用户注册</h3>
+						<form>
+							
+							<div class="form-group">
+								<input  class="form-control"  placeholder="账号：">
+							</div>
+							<div class="form-group">
+								<input  class="form-control"  placeholder="设置密码：">
+							</div>
+							<div class="form-group">
+								<input  class="form-control"  placeholder="确认密码：">
+							</div>
+							<div class="form-group">
+								<input  class="form-control fl"  placeholder="图形验证码：" style="width:80%;">
+								<button class="fr" style="padding:4px 12px">X4NR</button>
+								<br>
+							</div>
+							<br>
+						
+							<div class="form-group">
+								<input  class="form-control"  placeholder="手机：">
+							</div>
+							
+							<div class="form-group">
+								<input  class="form-control fl"  placeholder="验证码：" style="width:70%;">
+								<button class="fr" style="padding:4px 12px">获取短信验证码</button>
+								<br>
+							</div>
+							<br>
+							
+							<button type="submit" class="btn btn-primary" style="width:100%;padding:10px 0">立即注册</button>
+						</form>
+					</div>
+					<div class="col-md-6" style="text-align:center;">
+						<img src="../images/zc.jpg">
+						<p>已拥有账号？<a href="#">直接登录</a></p>
 					</div>
 				</div>
-				<div class="bottom">
-					<a class="a1" href="javascript:;">
-						<img src="../images/codeCom.jpg" width="120" height="316">
-					</a>
-					<a class="a2" href="javascript:;">
-						<img src="../images/codeCom2.png" width="120" height="120">
-					</a>
-					<a class="a3" href="javascript:;">
-						<img src="../images/codeCom3.jpg" width="120" height="120">
-					</a>
+			</div>
+		</div>
+		<!-- 注册结束 -->
+		<!-- 底部开始 -->
+		<div class="footer_1">
+			<div class="autowidth clearfix">
+				<div class="fl clearfix">
+					<dl>
+						<dt><a href="#">首页<span></span></a></dt>
+					</dl>
+					<dl>
+						<dt><a href="#">资讯<span></span></a></dt>
+						
+						<dd>
+						<a href="#">行业政策</a>
+						</dd>
+						
+						<dd>
+						<a href="#">国内动态</a>
+						</dd>
+						
+						<dd>
+						<a href="#">国外动态</a>
+						</dd>
+						
+						<dd>
+						<a href="#">展会信息</a>
+						</dd>
+						
+					</dl>
+					<dl>
+						<dt>
+						<a href="#">商城<span></span></a>
+						</dt>
+						
+						<dd>
+						<a href="#">
+						工业机器人</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						教学装备</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						书籍教材</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						核心部件</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						系统集成</a>
+						</dd>
+						
+						<dd>
+						<a href="#">
+						科教娱乐</a>
+						</dd>
+						
+					</dl>
+					<dl>
+						<dt><a href="#">学院<span></span></a></dt>
+						<dd><a href="#">学院概况</a></dd>
+						<dd><a href="#">人才培养</a></dd>
+						<dd><a href="#">教学资源</a></dd>
+						<dd><a href="#">师资队伍</a></dd>
+						<dd><a href="#">在线学堂</a></dd>
+						<dd><a href="#">培训认证</a></dd>
+						<dd><a href="#">就业发展</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="#" target="_blank">社区<span></span></a></dt>
+						<dd><a href="#">社区</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="#">大赛<span></span></a></dt>
+						<dd><a href="#">大赛介绍</a></dd>
+						<dd><a href="#">初赛作品</a></dd>
+						<dd><a href="#">决赛盛况</a></dd>
+						<dd><a href="#">往期回顾</a></dd>
+					</dl>
+				</div>
+				<div class="fr">
+					<div class="top">
+						<div class="youqing">
+							<input readonly="" value="友情链接">
+							<img class="img" src="../images/jj.png">
+							<div class="lianjie" style="display: none;">
+								<a href="http://www.edubot.cn/" target="_blank">江苏哈工海渡工业机器人有限公司</a>
+								<a href="http://www.hitrobotgroup.com/" target="_blank">哈工大机器人集团</a>
+								<a href="http://www.wozuo.com/" target="_blank">我做网</a>
+							</div>
+						</div>
+					</div>
+					<div class="bottom">
+						<a class="a1" href="javascript:;">
+							<img src="../images/codeCom.jpg" width="120" height="120">
+						</a>
+						<a class="a2" href="javascript:;">
+							<img src="../images/codeCom2.png" width="120" height="120">
+						</a>
+						<a class="a3" href="javascript:;">
+							<img src="../images/codeCom3.jpg" width="120" height="120">
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- 底部结束 -->
-	<!-- 版权开始 -->
-	<div class="footer_2">
-		<div class="autowidth clearfix">
-			<div class="fl">
-				<a href="#" target="_blank"></a> Copyright 2013昊科世纪 www.haokeshiji.com 版权所有 All Rights Reserved
-			</div>
-			<div class="fr">
-				<a href="../college2/help.html">帮助中心 </a>
-				<span>|</span>
-			</div>
-		</div>
-	</div>
-	<!-- 版权结束 -->
-</body>
-
+		<!-- 底部结束 -->
+	</body>
+	<!-- 控制头部隐藏盒子切换的js -->
+	<script src="../js/header.js"></script>
 </html>
