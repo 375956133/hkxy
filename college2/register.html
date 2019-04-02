@@ -7,9 +7,11 @@
 		<link rel="stylesheet" href="../css/header.css">
 		<link rel="stylesheet" href="../css/footer.css">
 		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../node_modules/layui-v2.4.5/layui/css/layui.css">
 		<link rel="stylesheet" href="../css/register.css">
 		<script src="../js/jquery-1.9.1.min.js"></script>
 		<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="../node_modules/layui-v2.4.5/layui/layui.js"></script>
 	</head>
 	<body >
 		<!-- 头部导航开始 -->
@@ -223,37 +225,33 @@
 			<div class="container">
 				<div class="row  register">
 					<div class="col-md-6">
-						<h3>新用户注册</h3>
-						<form>
-							
+						<h3>新用户注册</h3><br>
+						<form action="http://localhost:3000/yzm">
 							<div class="form-group">
-								<input  class="form-control"  placeholder="账号：">
+								<input  class="form-control"  placeholder="账号:" name="unum">
 							</div>
 							<div class="form-group">
-								<input  class="form-control"  placeholder="设置密码：">
+								<input  class="form-control"  placeholder="设置密码:" name="upwd">
 							</div>
 							<div class="form-group">
-								<input  class="form-control"  placeholder="确认密码：">
+								<input  class="form-control"  placeholder="确认密码:" name="upwdd">
 							</div>
 							<div class="form-group">
-								<input  class="form-control fl"  placeholder="图形验证码：" style="width:80%;">
-								<button class="fr" style="padding:4px 12px">X4NR</button>
+								<input  class="form-control fl"  placeholder="图形验证码:" style="width:74%;" name="imgnum">
+								<img style="cursor: pointer;" title="点击刷新验证码" src="../images/validate1.gif" id="vcodeImg" align="absmiddle" alt="验证码" width="98" height="36">
 								<br>
 							</div>
 							<br>
-						
 							<div class="form-group">
-								<input  class="form-control"  placeholder="手机：">
+								<input  class="form-control"  placeholder="手机:" name="cellphone">
 							</div>
-							
 							<div class="form-group">
-								<input  class="form-control fl"  placeholder="验证码：" style="width:70%;">
-								<button class="fr" style="padding:4px 12px">获取短信验证码</button>
+								<input  class="form-control fl"  placeholder="验证码：" style="width:70%;" name="num">
+								<button class="fr" type="button" style="padding:4px 12px" onclick="getNoteCode(this)">获取短信验证码</button>
 								<br>
 							</div>
 							<br>
-							
-							<button type="submit" class="btn btn-primary" style="width:100%;padding:10px 0">立即注册</button>
+							<button type="submit" class="btn btn-primary" style="width:100%;padding:10px 0" id="form" onclick="submitform()">立即注册</button>
 						</form>
 					</div>
 					<div class="col-md-6" style="text-align:center;">
@@ -379,4 +377,5 @@
 	</body>
 	<!-- 控制头部隐藏盒子切换的js -->
 	<script src="../js/header.js"></script>
+	<script src="../js/register.js"></script>
 </html>

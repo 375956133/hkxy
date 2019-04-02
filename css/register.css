@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-04-01 10:08:01
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-04-01 11:39:03
+* @Last Modified time: 2019-04-01 13:21:10
 */
 
 #register{
@@ -16,4 +16,8 @@
 }
 .register a{
 color:red;
+}
+.register button{
+	outline-style: none;
+	border:none;
 }
