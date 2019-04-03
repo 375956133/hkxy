@@ -2,7 +2,7 @@
  * @Author: Administrator
  * @Date:   2019-04-02 10:44:17
  * @Last Modified by:   375956133
- * @Last Modified time: 2019-04-02 11:42:25
+ * @Last Modified time: 2019-04-02 13:11:05
  */
 
 // 验证手机正则函数
@@ -67,7 +67,10 @@ function submitform() {
 	if(unum==""||unum==null||unum==undefined){
 		layer.msg("请输入账号！！！");
 		return false;
-	} else if (upwd !== upwdd) {
+	}else if(upwd==""||upwd==null||upwd==undefined){
+		layer.msg("请输入密码！！！");
+		return false;
+	}else if (upwd !== upwdd) {
 		layer.msg("您两次输入的密码不一样！！！")
 		return false;
 	} else if (phone == "" || phone == null || (!checkPoneAvailable(phone))) {
@@ -77,7 +80,6 @@ function submitform() {
 		layer.msg("提交成功！")
 		$("#form").submit();
 	}
-	
 }
 // 点击图型 更换图片
 $("#vcodeImg").click(function() {
