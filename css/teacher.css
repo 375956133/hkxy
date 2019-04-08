@@ -1,0 +1,44 @@
+/*
+* @Author: Administrator
+* @Date:   2019-04-08 15:43:28
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-04-08 16:12:07
+*/
+.teacherDt {
+    background: url(../images/xqbg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 70px 0;
+}
+.teacherDt img{
+	width: 270px;
+	height: 270px;
+	border:8px solid #41859B;
+}
+.teacherDt h3{
+	color:#fff;
+}
+.teacherDt  span{
+color:#ccc;
+}
+.t-info{
+	color:#fff;
+	line-height: 26px;
+	font-size: 16px;
+}
+/* 相关课程开始 */
+.lessonbox{
+	width: 100%;
+	height: 400px;
+	background: #F7F7F7;
+	padding-top: 20px;
+	
+}
+.lessonbox h2{
+	text-align: center;
+	color:#0D386B;
+}
+.lessonbox img{
+	width:100%;
+	margin-bottom: 6px;
+}
+/* 相关课程结束 */
