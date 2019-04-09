@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-03-12 10:19:55
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-03-12 10:37:12
+* @Last Modified time: 2019-04-09 10:24:18
 */
 
 body{
@@ -18,8 +18,8 @@ body{
     height: 215px;
 }
 .ganYan .noticeList li dl {
-    width: 940px;
-    height: 190px;
+    width: 913px;
+    height: 215px;
     padding: 25px 30px 0px 25px;
     background: #ededed;
 }
