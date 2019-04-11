@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2019-02-26 17:47:29
-* @Last Modified by:   Administrator
-* @Last Modified time: 2019-02-26 17:48:05
+* @Last Modified by:   375956133
+* @Last Modified time: 2019-04-10 13:50:36
 */
  $(function () {
     
@@ -54,7 +54,7 @@
     },
     success: function (data) {
     if (data === '1') {
-    window.location.href = '/college2/Default.htm';
+    window.location.href = '/college2/index.html';
     }
     }
     });

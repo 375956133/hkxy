@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2019-03-14 13:50:44
-* @Last Modified by:   Administrator
-* @Last Modified time: 2019-03-20 11:55:56
+* @Last Modified by:   375956133
+* @Last Modified time: 2019-04-11 10:50:07
 */
 
 
@@ -56,6 +56,20 @@ Vue.component('blog-post', {
     </div>
   `
 });
+// 每一个vue组件本质上都是vue的实例
+Vue.component("itemli",{
+  props:['item'],
+  template:`
+  <div>
+  <div v-html='item' @click="foo2()"></div>
+  </div>
+  `,
+  methods:{
+    foo2:function(){
+      alert(3)
+    }
+  }
+})
 // 请求数据
 axios.get("http://localhost:3000/content")
 .then(function(res){
@@ -70,21 +84,24 @@ var collTrainSearch=new Vue({
 	el:"#collTrainSearch",
 	data(){
 		return{
-			message:"hello",
 			posts: [],
-		   postFontSize: 1
+		  postFontSize: 1,
+      items:[],
+      inputvalue:""
 		}
 	},
 	methods: {
 	  onEnlargeText: function (enlargeAmount) {
 	    this.postFontSize += enlargeAmount
-	  }
+	  },
+    foo1:function(){
+      this.items.push(this.inputvalue);
+      this.inputvalue=''
+    }
 	},
 	router
 }).$mount("#collTrainSearch");
 // 现在，应用已经启动了！
-
-
 
  /*这里是提交表单前的非空校验*/
     function checkForm () {
@@ -97,9 +114,22 @@ var collTrainSearch=new Vue({
         } else if (uphoto == "" || uphoto == null || uphoto == undefined) {
             alert("请输入正确的手机号码！");
             return false;
-        } else {
+        } else if (!checkPoneAvailable(uphoto)) {  // 验证手机号码
+          alert("您输入的手机号有误！！！", function() {})
+          return false;
+        }else {
             alert("提交成功！")
             $("#Form").submit();
-        }
+        } 
 
+    }
+
+     //    验证手机号码格式
+    function checkPoneAvailable(str) {
+        var myreg = /^[1][3,4,5,7,8][0-9]{9}$/;
+        if (!myreg.test(str)) {
+            return false;
+        } else {
+            return true;
+        }
     }

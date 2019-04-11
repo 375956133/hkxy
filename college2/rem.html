@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+		img { width: auto; max-width: 100%; }
+		table th, table td { padding: 0 0; text-align: center; }
+		在现代浏览器中（包括IE8+）中要实现图片随着流动布局相应缩放非常简单，只需要在css中加上这么一句代码：
+		img { max-width:100%; }
+		含义是：确保图片的最大宽度不会超过浏览器的窗口或其容器可视部分的宽度，所以当窗口或容器的可视部分变窄时，图片的最大宽度值也会相应的变小，图片本身永远不会覆盖容器。
+		原文：https://blog.csdn.net/qq_36911154/article/details/78152538
+		rem也是相对单位。rem是相对于html根元素来计算的，这就是说只要在根节点设定好参考值，那么全篇的1rem都相等，计算方式同 em，默认1rem=16px; 同理你可以 设定html { font-size:62.5% }
+		 那么1rem就等于10px，以此类推。。。
+		比如设置html根元素 如下代码：
+		html {font-size: 62.5%; /*10 ÷ 16 × 100% = 62.5%*/}
+		当一个p元素是24px的话，那么转换成rem为单位的话，那么只需要如下这样写即可：
+		p {font-size: 2.4rem; /*2.4 × 10px = 24px */ }
+		原文：https://blog.csdn.net/qq_36911154/article/details/78152538
+		/** iPad **/
+		@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+		/** iPhone **/
+		@media only screen and (min-width: 320px) and (max-width: 767px) {}
+		/* 安卓 */
+		@media (max-width: 768px){
+		}
+		</style>
+	</head>
+	<body>
+		
+	</body>
+</html>

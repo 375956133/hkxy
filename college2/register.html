@@ -3,6 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Document</title>
+		<!-- IE=edge表示强制使用IE最新内核，chrome=1表示如果安装了针对IE6/7/8等版本的浏览器插件Google Chrome Frame（可以让用户的浏览器外观依然是IE的菜单和界面，但用户在浏览网页时，实际上使用的是Chrome浏览器内核），那么就用Chrome内核来渲染。
+		-->
+		<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" /> <!-- 兼容ie8 -->
+		<!-- 让IE8兼容h5的标签 --> 
+		<script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
 		<link rel="stylesheet" href="../css/default.css" />
 		<link rel="stylesheet" href="../css/header.css">
 		<link rel="stylesheet" href="../css/footer.css">
@@ -16,36 +21,83 @@
 	<body >
 		<!-- 头部导航开始 -->
 		<div class="headNav">
+			<!-- 第一条导航开始 -->
+			<div class="first">
+				<div class="autowidth clearfix">
+					<!-- 左侧导航开始 -->
+					<ul class="headNavL fl hidden" style="display:none;">
+						<li class="fl headNavF">
+							<a href="http://www.irobot-edu.com/" target="_blank">
+								<img src="../images/video5.png" alt="首页" width="14" height="13">
+							首页</a>
+						</li>
+						<li class="fl">
+							<a href="#">学院概况</a>
+						</li>
+						<li class="fl">
+							<a href="#">人才培养</a>
+						</li>
+						<li class="fl">
+							<a href="#">教学资源</a>
+						</li>
+						<li class="fl">
+							<a href="#">师资队伍</a>
+						</li>
+						<li class="fl">
+							<a href="#">在线学堂</a>
+						</li>
+						
+					</ul>
+					<!-- 左侧导航结束 -->
+					<!-- 右侧注册 登录开始 -->
+					<ul class="headNavL headNavR fr clearfix">
+						<li class="fl">
+							<a href="login.html">登录</a>
+						</li>
+						<li class="fl">
+							<a href="register.html">注册</a>
+						</li>
+					</ul>
+					<!-- 右侧注册 登录结束 -->
+					<!-- 搜索框开始 -->
+					<div class="right fr">
+						<input id="ipt_Search" placeholder="请输入关键词" type="text" value="">
+						<a class="search" href="javascript:FnSearch();">搜索</a>
+					</div>
+					<!-- 搜索框结束 -->
+				</div>
+			</div>
+			<!-- 第一条导航结束 -->
 			<!-- 第2条导航开始 -->
 			<div class="second">
 				<div class="hover_bg" style="height: 0px;"></div>
 				<div class="autowidth  clearfix">
 					<!-- 左侧logo开始 -->
 					<div class="positionLogo fl clearfix">
-						<a href="#" target="_blank" class="logo1 fl"></a>
-						<a href="#" class="logo2 fl"></a>
+						<!-- <a href="#" target="_blank" class="logo1 fl"></a>
+						<a href="#" class="logo2 fl"></a> -->
 					</div>
 					<!-- 左侧logo结束 -->
 					<!-- 右边导航开始 -->
 					<div class="fr clearfix">
 						<ul class="header clearfix" id="HeadNav">
 							<li data-url="#">
-								<a href="#" class="active">
+								<a href="index.html" class="active">
 								学院首页</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="collSpeech.html">
 								学院概况</a>
 								<div class="dl_1 clearfix">
 									<div class="b_padd clearfix">
 										<div class="box1_f1">
 											<div class="dt">学院概况</div>
 											<div class="clearfix">
-												<a href="#" class="li2">学院介绍</a>
-												<a href="#" class="li2">发展历程</a>
-												<a href="#" class="li2">学院通告</a>
-												<a href="#" class="li2">校企合作</a>
-												<a href="#" class="li2">组织机构</a>
+												<a href="collIntor.html" class="li2">学院介绍</a>
+												<a href="collHistory.html" class="li2">发展历程</a>
+												<a href="collNotice.html" class="li2">学院通告</a>
+												<a href="collSchool.html" class="li2">校企合作</a>
+												<a href="collOrg.html" class="li2">组织机构</a>
 											</div>
 										</div>
 										<div class="box1_f2">
@@ -64,28 +116,28 @@
 								</div>
 							</li>
 							<li>
-								<a href="#">
+								<a href="collPerPower.html">
 								人才培养</a>
 								<div class="dl_1 clearfix">
 									<div class="b_padd clearfix">
 										<div class="box1_f1">
 											<div class="dt">人才培养</div>
 											<div class="clearfix">
-												<a href="#" class="li2">中职教育</a>
-												<a href="#" class="li2">高职教育</a>
-												<a href="#" class="li2">本科教育</a>
-												<a href="#" class="li2">工业机器人应用工程师</a>
-												<a href="#" class="li2">工业机器人系统集成工程师</a>
+												<a href="collPerPower-zz.html" class="li2">中职教育</a>
+												<a href="collPerPower-gz.html" class="li2">高职教育</a>
+												<a href="collPerPower-bk.html" class="li2">本科教育</a>
+												<a href="collPerPower-yy.html" class="li2">工业机器人应用工程师</a>
+												<a href="collPerPwer-jc.html" class="li2">工业机器人系统集成工程师</a>
 											</div>
 										</div>
 										<div class="box1_f2">
-											<a href="#" class="img1">
+											<a href="collPerPower-zz.html" class="img1">
 												<img src="../images/hidenav.jpg" width="288" height="134">
 											</a>
 											<div class="p"><a href="">中职教育</a></div>
 										</div>
 										<div class="box1_f2">
-											<a href="#" class="img1">
+											<a href="collPerPower-gz.html" class="img1">
 												<img src="../images/hidenav.jpg" width="288" height="134">
 											</a>
 											<div class="p"><a href="">高职教育</a></div>
@@ -94,28 +146,28 @@
 								</div>
 							</li>
 							<li>
-								<a href="#">
+								<a href="collSource.html">
 								教学资源</a>
 								<div class="dl_1 clearfix">
 									<div class="b_padd clearfix">
 										<div class="box1_f1">
 											<div class="dt">教学资源</div>
 											<div class="clearfix">
-												<a href="#" class="li2">推荐教材</a>
-												<a href="#" class="li2">培训装备</a>
-												<a href="#" class="li2">教学视频</a>
-												<a href="#" class="li2">配套教案</a>
-												<a href="#" class="li2">考核题库</a>
+												<a href="collSource.html" class="li2">推荐教材</a>
+												<a href="collSource-tab-cp.html" class="li2">培训装备</a>
+												<a href="videoOnline.html" class="li2">教学视频</a>
+												<a href="questions.html" class="li2">配套教案</a>
+												<a href="questions.html" class="li2">考核题库</a>
 											</div>
 										</div>
 										<div class="box1_f2">
-											<a href="#" class="img1">
+											<a href="collSource.html" class="img1">
 												<img src="../images/hidenav.jpg" width="288" height="134">
 											</a>
 											<div class="p"><a href="">推荐教材</a></div>
 										</div>
 										<div class="box1_f2">
-											<a href="#" class="img1">
+											<a href="collSource-tab-cp.html" class="img1">
 												<img src="../images/hidenav.jpg" width="288" height="134">
 											</a>
 											<div class="p"><a href="">培训装备</a></div>
@@ -124,26 +176,26 @@
 								</div>
 							</li>
 							<li>
-								<a href="#">
+								<a href="collTeacher.html">
 								师资队伍</a>
 								<div class="dl_1 clearfix">
 									<div class="b_padd clearfix">
 										<div class="box1_f1">
 											<div class="dt">师资队伍</div>
 											<div class="clearfix">
-												<a href="#" class="li2">专家教授</a>
-												<a href="#" class="li2">高级顾问</a>
-												<a href="#" class="li2">讲师团队</a>
+												<a href="collTeacher.html" class="li2">专家教授</a>
+												<a href="collTeacherg.html" class="li2">高级顾问</a>
+												<a href="collTeacherj.html" class="li2">讲师团队</a>
 											</div>
 										</div>
 										<div class="box1_f2">
-											<a href="#" class="img1">
+											<a href="collTeacher.html" class="img1">
 												<img src="../images/hidenav.jpg" width="288" height="134">
 											</a>
 											<div class="p"><a href="">专家教授</a></div>
 										</div>
 										<div class="box1_f2">
-											<a href="#" class="img1">
+											<a href="collTeacherg.html" class="img1">
 												<img src="../images/hidenav.jpg" width="288" height="134">
 											</a>
 											<div class="p"><a href="">高级顾问</a></div>
@@ -152,30 +204,30 @@
 								</div>
 							</li>
 							<li>
-								<a href="#">
+								<a href="videoOnline.html">
 								在线学堂</a>
 								
 							</li>
 							<li>
-								<a href="#">
+								<a href="collTrain.html">
 								培训认证</a>
 								<div class="dl_1 clearfix">
 									<div class="b_padd clearfix">
 										<div class="box1_f1">
 											<div class="dt">培训认证</div>
 											<div class="clearfix">
-												<a href="#" class="li2">培训课程</a>
-												<a href="#" class="li2">证书查询</a>
+												<a href="collTrain.html" class="li2">培训课程</a>
+												<a href="search-book.html" class="li2">证书查询</a>
 											</div>
 										</div>
 										<div class="box1_f2">
-											<a href="#" class="img1">
+											<a href="collTrain.html" class="img1">
 												<img src="../images/hidenav.jpg" width="288" height="134">
 											</a>
 											<div class="p"><a href="">培训课程</a></div>
 										</div>
 										<div class="box1_f2">
-											<a href="#" class="img1">
+											<a href="search-book.html" class="img1">
 												<img src="../images/hidenav.jpg" width="288" height="134">
 											</a>
 											<div class="p"><a href="">证书查询</a></div>
@@ -184,27 +236,27 @@
 								</div>
 							</li>
 							<li>
-								<a href="#">
+								<a href="collRecruit.html">
 								就业发展</a>
 								<div class="dl_1 clearfix">
 									<div class="b_padd clearfix">
 										<div class="box1_f1">
 											<div class="dt">就业发展</div>
 											<div class="clearfix">
-												<a href="#" class="li2">招聘信息</a>
-												<a href="#" class="li2">实习岗位</a>
-												<a href="#" class="li2">学生感言</a>
-												<a href="#" class="li2">就业情况</a>
+												<a href="collRecruit.html" class="li2">招聘信息</a>
+												<a href="collJob.html" class="li2">实习岗位</a>
+												<a href="collGanYan.html" class="li2">学生感言</a>
+												<a href="collEmploy.html" class="li2">就业情况</a>
 											</div>
 										</div>
 										<div class="box1_f2">
-											<a href="#" class="img1">
+											<a href="collRecruit.html" class="img1">
 												<img src="../images/hidenav.jpg" width="288" height="134">
 											</a>
 											<div class="p"><a href="">机械工程师</a></div>
 										</div>
 										<div class="box1_f2">
-											<a href="#" class="img1">
+											<a href="collRecruit.html" class="img1">
 												<img src="../images/hidenav.jpg" width="288" height="134">
 											</a>
 											<div class="p"><a href="">销售经理</a></div>
@@ -270,75 +322,75 @@
 						<dt><a href="#">首页<span></span></a></dt>
 					</dl>
 					<dl>
-						<dt><a href="#">学校概况<span></span></a></dt>
+						<dt><a href="index.html">学校概况<span></span></a></dt>
 						
 						<dd>
-						<a href="#">学院介绍</a>
+						<a href="collIntor.html">学院介绍</a>
 						</dd>
 						
 						<dd>
-						<a href="#">发展历程</a>
+						<a href="collHistory.html">发展历程</a>
 						</dd>
 						
 						<dd>
-						<a href="#">学院通告</a>
+						<a href="collNotice.html">学院通告</a>
 						</dd>
 						
 						<dd>
-						<a href="#">校企合作</a>
+						<a href="collSchool.html">校企合作</a>
 						</dd>
 						<dd>
-						<a href="#">组织机构</a>
+						<a href="collOrg.html">组织机构</a>
 						</dd>
 						
 					</dl>
 					<dl>
 						<dt>
-						<a href="#">人才培养<span></span></a>
+						<a href="collPerPower.html">人才培养<span></span></a>
 						</dt>
 						
 						<dd>
-						<a href="#">
+						<a href="collPerPower-zz.html">
 							中职教育
 						</a>
 						</dd>
 						
 						<dd>
-						<a href="#">
+						<a href="collPerPower-gz.html">
 						高职教育</a>
 						</dd>
 						
 						<dd>
-						<a href="#">
+						<a href="collPerPower-bk.html">
 						本科教育</a>
 						</dd>
 						
 						<dd>
-						<a href="#">
+						<a href="collPerPower-yy.html">
 						机器人应用工程师</a>
 						</dd>
 						
 						<dd>
-						<a href="#">
+						<a href="collPerPwer-jc.html">
 						系统集成工程师</a>
 						</dd>
 					</dl>
 					<dl>
-						<dt><a href="#">教学资源<span></span></a></dt>
-						<dd><a href="#">推荐教材</a></dd>
-						<dd><a href="#">培训装备</a></dd>
-						<dd><a href="#">教学视频</a></dd>
-						<dd><a href="#">配套教案</a></dd>
-						<dd><a href="#">考核题库</a></dd>
+						<dt><a href="collSource.html">教学资源<span></span></a></dt>
+						<dd><a href="collSource.html">推荐教材</a></dd>
+						<dd><a href="collSource-tab-cp.html">培训装备</a></dd>
+						<dd><a href="videoOnline.html">教学视频</a></dd>
+						<dd><a href="questions.html">配套教案</a></dd>
+						<dd><a href="questions.html">考核题库</a></dd>
 					</dl>
 					<dl>
-						<dt><a href="#" target="_blank">师资队伍<span></span></a></dt>
-						<dd><a href="#">专家教授</a></dd>
-						<dd><a href="#">高级顾问</a></dd>
-						<dd><a href="#">讲师团队</a></dd>
+						<dt><a href="collTeacher.html" target="_blank">师资队伍<span></span></a></dt>
+						<dd><a href="collTeacher.html">专家教授</a></dd>
+						<dd><a href="collTeacherg.html">高级顾问</a></dd>
+						<dd><a href="collTeacherj.html">讲师团队</a></dd>
 					</dl>
 					<dl>
-						<dt><a href="#">在线学堂<span></span></a></dt>
+						<dt><a href="videoOnline.html">在线学堂<span></span></a></dt>
 					</dl>
 				</div>
 				<div class="fr">
@@ -367,6 +419,7 @@
 				</div>
 			</div>
 		</div>
+	
 		<!-- 底部结束 -->
 	</body>
 	<!-- 控制头部隐藏盒子切换的js -->
