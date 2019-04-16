@@ -383,22 +383,7 @@
 						<router-link to="/foo">to foo</router-link>
 						<router-link to="/bar">to bar</router-link>
 						<router-view></router-view>
-						
-						<name-b title='我是另一个数据1'></name-b>
-						<name-b title='我是另一个数据2'></name-b>
-						<name-b title='我是另一个数据3'></name-b>
-						
-						<div :style="{ fontSize: postFontSize + 'em',color:'green' }">
-							<blog-post
-							v-for="post in posts"
-							v-bind:key="post.id"
-							v-bind:post="post"
-							v-bind:content="post.content"
-							v-on:enlarge-text="onEnlargeText(0.1)"
-							></blog-post>
-						</div>
-						<input type="date" class="form-control"><br>
-						<input ref="input" type="hidden">
+
 						<h2>todolist</h2>
 						<input type="text" v-model="inputvalue">
 						<button @click="foo1">点击添加条目</button>
@@ -408,6 +393,9 @@
 							<itemli 
 							v-for="(item,index) in items"
 							v-bind:item="item"
+							v-bind:index="index"
+							v-bind:key="index"
+							@deleli="foo2"
 							></itemli>
 						</ul>
 					</div>

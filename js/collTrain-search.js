@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-03-14 13:50:44
 * @Last Modified by:   375956133
-* @Last Modified time: 2019-04-11 10:50:07
+* @Last Modified time: 2019-04-16 10:16:24
 */
 
 
@@ -33,41 +33,26 @@ const router = new VueRouter({
 
 // 全局注册的行为必须在根Vue实例(通过 new Vue) 创建之前发生
  
-Vue.component("name-b",{
-	props:['title'],
-	template: '<h3>{{title}}</h3>',
-	data(){
-		return{
-			messageb:"bb"
-		}
-	}
-});
+// 每一个vue组件本质上都是vue的实例  有自己的data 自己的methods  自己的template  
 
-
-Vue.component('blog-post', {
-  props: ['post'],
-  template: `
-    <div class="blog-post">
-      <h2>{{ post.title }}</h2>
-      <div v-html="post.content"></div>
-       <button   v-on:click="$emit('enlarge-text')">
-        点我可以放大字体
-      </button>
-    </div>
-  `
-});
-// 每一个vue组件本质上都是vue的实例
 Vue.component("itemli",{
-  props:['item'],
+  props:['item','index'],
+  data(){
+    return{
+      message:"我是子组件"
+    }
+  },
   template:`
   <div>
-  <div v-html='item' @click="foo2()"></div>
+  <li @click="deleteli">{{index}}{{item}}{{message}}</li>
   </div>
   `,
   methods:{
-    foo2:function(){
-      alert(3)
+    deleteli:function(){
+      alert(111);
+      this.$emit("deleli",this.index);
     }
+
   }
 })
 // 请求数据
@@ -84,20 +69,20 @@ var collTrainSearch=new Vue({
 	el:"#collTrainSearch",
 	data(){
 		return{
-			posts: [],
-		  postFontSize: 1,
       items:[],
       inputvalue:""
 		}
 	},
 	methods: {
-	  onEnlargeText: function (enlargeAmount) {
-	    this.postFontSize += enlargeAmount
-	  },
     foo1:function(){
       this.items.push(this.inputvalue);
       this.inputvalue=''
+    },
+     foo2:function(index){
+      alert(3);
+      this.items.splice(index,1)
     }
+
 	},
 	router
 }).$mount("#collTrainSearch");
